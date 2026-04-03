@@ -594,119 +594,158 @@
     },
     "divisionResurgenceControllerSupport": {
       "title": "The Division Resurgence Controller Support",
-      "displayType": "accordion",
-      "intro": "The Division Resurgence supports multiple input methods on mobile. Ubisoft highlights touch, PS5 controllers, Xbox controllers, and Backbone support, with controller-specific interface improvements already documented in official updates.",
-      "faqs": [
+      "displayType": "comparisonCards",
+      "intro": "The Division Resurgence is built for handheld play first, but supports multiple input methods. Official Ubisoft updates confirm optimized touch controls, customizable layouts, plus PS5, Xbox, and Backbone controller support with a dedicated controller battle interface.",
+      "items": [
         {
-          "question": "Does The Division Resurgence support controllers?",
-          "answer": "Yes. The Division Resurgence officially supports PS5, Xbox, and Backbone controllers, in addition to fully optimized touch controls."
+          "control_method": "Optimized Touch Controls",
+          "support_status": "Officially supported",
+          "best_for": "Default mobile play, quick sessions, no extra hardware",
+          "details": "Ubisoft says the default touch controls are fully optimized for mobile play. Players can customize button layout and camera sensitivity.",
+          "setup_notes": "Works out of the box on all mobile devices."
         },
         {
-          "question": "How do I connect a PS5 controller to The Division Resurgence?",
-          "answer": "Pair the PS5 controller to your phone or tablet using Bluetooth, then adjust the in-game button layout and camera sensitivity settings as needed."
+          "control_method": "PS5 Controller",
+          "support_status": "Officially supported",
+          "best_for": "Console-style aiming and longer sessions",
+          "details": "Ubisoft confirms PlayStation 5 controller support as a precision-focused option with familiar inputs and more comfortable ergonomics.",
+          "setup_notes": "Pair the controller to your phone or tablet, then adjust in-game layout and sensitivity settings."
         },
         {
-          "question": "Does The Division Resurgence support Xbox controllers?",
-          "answer": "Yes. Xbox controller support is officially confirmed and offers the same precision and comfort benefits as PS5 controller play."
+          "control_method": "Xbox Controller",
+          "support_status": "Officially supported",
+          "best_for": "Consistent shooter controls in PvE and PvP",
+          "details": "Ubisoft confirms Xbox controller support and describes it as offering the same precision and comfort benefits as PS5 controller play.",
+          "setup_notes": "Pair the controller to your mobile device before launching or while in game."
         },
         {
-          "question": "Does The Division Resurgence support Backbone controllers?",
-          "answer": "Yes. Ubisoft explicitly lists Backbone support as a way to turn a phone into a more dedicated tactical shooter setup for The Division Resurgence."
+          "control_method": "Backbone Controller",
+          "support_status": "Officially supported",
+          "best_for": "Portable phone-first setup",
+          "details": "Ubisoft explicitly lists Backbone support as a way to turn a phone into a more dedicated tactical shooter setup.",
+          "setup_notes": "Attach the controller to the phone and fine-tune controls in settings."
         },
         {
-          "question": "Is there a controller-specific battle interface?",
-          "answer": "Yes. Regional Beta patch notes confirm a new battle interface was added exclusively for controllers, with optimized controller operation logic and trigger adaptation."
+          "control_method": "Controller-Specific Battle Interface",
+          "support_status": "Officially added in beta updates",
+          "best_for": "Players switching away from touch controls",
+          "details": "Regional Beta patch notes confirm a new battle interface was added exclusively for controllers, with optimized controller operation logic and trigger adaptation.",
+          "setup_notes": "Relevant when using any supported controller rather than touch."
         },
         {
-          "question": "Can I use touch and controller interchangeably?",
-          "answer": "Yes. Ubisoft describes The Division Resurgence as supporting touch, controller, or a hybrid approach. Use the settings menu to adapt sensitivity and layout to your preferred input style."
+          "control_method": "Hybrid Input",
+          "support_status": "Officially acknowledged",
+          "best_for": "Players who want flexibility across sessions",
+          "details": "Ubisoft describes the game as supporting touch, controller, or a hybrid approach depending on player preference.",
+          "setup_notes": "Use the settings menu to adapt sensitivity and layout around your preferred input style."
         }
       ]
     },
     "divisionResurgenceBattlePassAndSeasons": {
       "title": "The Division Resurgence Battle Pass and Seasons",
-      "displayType": "settingCards",
-      "intro": "For long-term players in The Division Resurgence, the important question is not just whether a Battle Pass exists, but how it fits into the game's broader content loop. Ubisoft's roadmap describes a seasonal rollout that keeps adding activities, missions, weapons, skins, and more.",
-      "settings": [
+      "displayType": "timeline",
+      "intro": "For long-term agents in The Division Resurgence, the Battle Pass fits into a seasonal content loop of missions, activities, and escalating rewards. Ubisoft confirms both free and premium participation paths, with XP earned through gameplay rather than spending.",
+      "milestones": [
         {
-          "name": "Regional Beta Roadmap Introduced Seasonal Structure",
-          "type": "June 2023",
-          "description": "Ubisoft formally described a seasonal content rollout with new activities, missions, weapons, skins, and more. Both free and premium Battle Pass participation were confirmed."
+          "date": "June 2023",
+          "label": "Regional Beta Roadmap: Seasonal Structure Introduced",
+          "details": "Ubisoft formally described a seasonal content rollout with new activities, missions, weapons, skins, and more. Both free and premium Battle Pass participation were confirmed."
         },
         {
-          "name": "Battle Pass Rewards Expanded",
-          "type": "November 2023",
-          "description": "Ubisoft said Battle Pass rewards were made more interesting and highlighted the Warlord Assault Rifle as a new exotic reward in the Regional Beta Battle Pass."
+          "date": "Jun–Jul 2023",
+          "label": "Regional Beta Phase 1",
+          "details": "The first live-service test began, serving as an early testbed for progression, missions, monetization systems, and Battle Pass structure."
         },
         {
-          "name": "New Regional Beta Test",
-          "type": "November-December 2025",
-          "description": "A developer update announced another regional beta for the USA and Brazil, showing the game's launch path continued with staged live testing."
+          "date": "Aug–Sep 2023",
+          "label": "Regional Beta Phase 2",
+          "details": "The second beta phase continued the seasonal test approach. Player progression was reset so Ubisoft could rebalance for the next stage."
         },
         {
-          "name": "Worldwide Release",
-          "type": "March 31, 2026",
-          "description": "The Division Resurgence globally launched on iOS and Android. Store descriptions describe the game as a living experience with regular additional content."
+          "date": "November 2023",
+          "label": "Battle Pass Rewards Expanded",
+          "details": "Ubisoft made Battle Pass rewards more interesting and highlighted the Warlord Assault Rifle as a new exotic reward in the Regional Beta Battle Pass."
         },
         {
-          "name": "How Progression Works",
-          "type": "Ongoing Seasonal Loop",
-          "description": "Agents gain Battle Pass XP by participating in missions and activities. Rewards unlock progressively by level and include items, weapons, materials, skins, and exotic rewards."
+          "date": "Nov–Dec 2025",
+          "label": "New Regional Beta: USA & Brazil",
+          "details": "A developer update announced another regional beta, showing the game's launch path continued to rely on staged live testing before global release."
         },
         {
-          "name": "Free and Premium Paths",
-          "type": "Battle Pass Structure",
-          "description": "The Battle Pass can be enjoyed as either a free or premium player. Progress comes from playing missions and activities, not from paying, making the core grind accessible to all players."
+          "date": "March 31, 2026",
+          "label": "Worldwide Release",
+          "details": "The Division Resurgence globally launched on iOS and Android as a living title with regular additional content expanding story, world, and challenges."
+        },
+        {
+          "date": "Ongoing",
+          "label": "Seasonal Progression Loop",
+          "details": "Agents gain Battle Pass XP by playing missions and activities. Rewards unlock progressively by level and include items, weapons, materials, skins, and exotic rewards."
         }
       ]
     },
     "divisionResurgenceExoticWeapons": {
       "title": "The Division Resurgence Exotic Weapons",
-      "displayType": "timeline",
-      "intro": "In official The Division Resurgence updates, Ubisoft repeatedly ties exotic rewards to the Battle Pass and broader seasonal progression loop. Players looking for exotics should focus on the reward systems that Ubisoft has already confirmed.",
-      "entries": [
+      "displayType": "cardGrid",
+      "intro": "Exotic weapons in The Division Resurgence are tied to the Battle Pass and seasonal progression. Ubisoft has already confirmed the Warlord Assault Rifle as a named exotic, with additional exotics unlocked through missions, activities, and Battle Pass reward tracks.",
+      "items": [
         {
-          "title": "Warlord Assault Rifle",
-          "type": "Confirmed Exotic",
-          "description": "Named by Ubisoft as an exotic weapon unlocked through the Regional Beta Battle Pass. This is the clearest officially identified exotic weapon currently tied to progression rewards."
+          "name": "Warlord Assault Rifle",
+          "category": "Confirmed Exotic",
+          "why_it_matters": "Named by Ubisoft as an exotic weapon unlocked through the Regional Beta Battle Pass. The clearest officially confirmed exotic weapon with a verified acquisition path.",
+          "player_takeaway": "Track Battle Pass progression first if you want a verified exotic chase target in The Division Resurgence."
         },
         {
-          "title": "Seasonal Battle Pass Exotics",
-          "type": "Reward Category",
-          "description": "Ubisoft says Battle Pass rewards include highly sought-after exotic weapons. Exotic weapons are part of the core seasonal retention loop in The Division Resurgence."
+          "name": "Seasonal Battle Pass Exotics",
+          "category": "Reward Category",
+          "why_it_matters": "Ubisoft confirms Battle Pass rewards include highly sought-after exotic weapons. Exotics are part of the core seasonal retention loop, not side content.",
+          "player_takeaway": "Playing through seasons is one of the main exotic acquisition paths in The Division Resurgence."
         },
         {
-          "title": "Mission and Activity XP Path",
-          "type": "Progression Source",
-          "description": "Agents earn Battle Pass XP by participating in missions and activities, which then unlock reward levels. The exotic path is tied to regular gameplay rather than a separate system."
+          "name": "Mission and Activity XP Path",
+          "category": "Progression Source",
+          "why_it_matters": "Agents earn Battle Pass XP by participating in missions and activities, then unlock reward levels. The exotic path is tied to routine gameplay.",
+          "player_takeaway": "Regular mission clears and activity farming feed the exotic unlock route in The Division Resurgence."
         },
         {
-          "title": "Sealed Caches Rework",
-          "type": "Supporting System",
-          "description": "Ubisoft reworked Sealed Caches to improve content and make them easier to obtain by playing. This improves the broader loot economy around endgame progression."
+          "name": "Sealed Caches Rework",
+          "category": "Supporting Loot System",
+          "why_it_matters": "Ubisoft reworked Sealed Caches to improve content and make them easier to obtain through play. This supports the wider loot economy around endgame progression.",
+          "player_takeaway": "Exotic chasing in The Division Resurgence sits inside a wider reward ecosystem, not just one menu track."
         }
       ]
     },
     "divisionResurgenceFactions": {
       "title": "The Division Resurgence Factions",
-      "displayType": "steps",
-      "intro": "The Division Resurgence brings back several established New York enemy groups and adds a brand-new faction. Official launch coverage confirms Raiders, Rikers, Cleaners, and the new Freemen as major hostile forces in the game.",
-      "steps": [
+      "displayType": "factionCards",
+      "intro": "The Division Resurgence mixes returning New York enemy factions with the brand-new Freemen, built exclusively for this game. Official launch coverage confirms four major hostile groups: Raiders, Rikers, Cleaners, and the new Freemen.",
+      "items": [
         {
-          "title": "Freemen",
-          "description": "New-to-the-franchise faction: Midtown Manhattan doomsday preppers formed during the Dollar Flu outbreak, led by Arthur King. They use powerful homemade weapons and are obsessed with scavenging and hoarding materials."
+          "name": "Freemen",
+          "role": "New Franchise Faction",
+          "identity": "Midtown Manhattan doomsday preppers formed in the early days of the Dollar Flu outbreak, led by Arthur King.",
+          "combat_profile": "Use powerful homemade weapons and are obsessed with scavenging and hoarding useful materials.",
+          "story_hook": "Ubisoft frames the Freemen as a major new threat whose attacks are escalating across the city in The Division Resurgence."
         },
         {
-          "title": "Rikers",
-          "description": "Returning New York faction: Escaped inmates from Rikers Island Prison. A violent street-level faction with strong criminal identity, returning as one of the familiar hostile groups vying for control during the crisis."
+          "name": "Rikers",
+          "role": "Returning New York Faction",
+          "identity": "Escaped inmates from Rikers Island Prison with a strong criminal identity carried over from Division lore.",
+          "combat_profile": "A violent street-level faction fighting for control of New York during the crisis.",
+          "story_hook": "They return as one of the familiar hostile groups from the franchise, vying for territory in The Division Resurgence."
         },
         {
-          "title": "Cleaners",
-          "description": "Returning New York faction: Former sanitation workers who believe the virus can be stopped by burning it out. Known for aggressive flame-based tactics and ideological brutality. One of the franchise's signature enemies."
+          "name": "Cleaners",
+          "role": "Returning New York Faction",
+          "identity": "Former sanitation workers who believe the virus can only be stopped by burning it out.",
+          "combat_profile": "Known for aggressive flame-based tactics and ideological brutality — one of the franchise's signature enemies.",
+          "story_hook": "Confirmed as part of The Division Resurgence faction lineup, keeping their signature role as fanatical fire-wielders."
         },
         {
-          "title": "Raiders",
-          "description": "Returning hostile faction: A veteran hostile group included among the factions fighting for control in New York. Their inclusion ties The Division Resurgence back to the original citywide collapse and faction warfare."
+          "name": "Raiders",
+          "role": "Returning Hostile Faction",
+          "identity": "A veteran hostile group among the factions fighting for control of New York.",
+          "combat_profile": "Presented as one of the established violent groups that Division agents must push back against.",
+          "story_hook": "Their inclusion helps tie The Division Resurgence back to the original citywide collapse and faction warfare."
         }
       ]
     }
@@ -767,124 +806,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "The Division Resurgence Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced agent strategies. Master specializations, builds, and open-world tactics.",
+      "metaTitle": "The Division Resurgence Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete The Division Resurgence guides covering beginner tips, specializations, Dark Zone, builds, and advanced agent tactics for iOS and Android.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering The Division Resurgence gameplay mechanics, specialization builds, Dark Zone strategies, and progression tips. Learn everything from first steps to endgame.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand specializations, skills, and gear to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to level up and unlock powerful builds faster",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for Dark Zone, PvP, and endgame content"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "builds": {
+      "title": "The Division Resurgence Builds",
+      "description": "Best agent builds for PvE, PvP, and Dark Zone. Optimize your gear score, skills, and specialization loadouts.",
+      "metaTitle": "The Division Resurgence Builds - Best Agent Loadouts & Gear",
+      "metaDescription": "Best The Division Resurgence builds for every specialization. Optimize your gear, skills, and loadouts for PvE, PvP, and Dark Zone.",
+      "categoryLabel": "AGENT BUILDS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Guides to optimizing your agent loadout in The Division Resurgence, covering gear selection, skill synergies, and specialization combinations for every playstyle.",
+      "why": "Why use builds?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Maximize Damage Output",
+        "step1Description": "Pair the right weapons and gear to reach your specialization's potential",
+        "step2Title": "Survive Endgame",
+        "step2Description": "Build survivability for Dark Zone extractions and Heroic missions",
+        "step3Title": "Adapt to Content",
+        "step3Description": "Swap loadouts for solo campaign, co-op, or PvP situations"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Builds"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "weapons": {
+      "title": "The Division Resurgence Weapons",
+      "description": "Complete weapon database with stats, roles, and the best weapons for PvE and PvP in The Division Resurgence.",
+      "metaTitle": "The Division Resurgence Weapons - Best Guns & Stats Guide",
+      "metaDescription": "Complete The Division Resurgence weapon guide covering assault rifles, SMGs, marksman rifles, LMGs, and exotic weapon unlock paths.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Guides to every weapon category in The Division Resurgence, including assault rifles, SMGs, LMGs, marksman rifles, and exotic weapons with unlock paths.",
+      "why": "Why check weapon guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose the Best Weapon",
+        "step1Description": "Find top-tier options for your specialization and playstyle",
+        "step2Title": "Unlock Exotic Weapons",
+        "step2Description": "Learn Battle Pass and progression paths to earn exotic rewards",
+        "step3Title": "Optimize Loadouts",
+        "step3Description": "Pair primary and secondary weapons for maximum effectiveness"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "missions": {
+      "title": "The Division Resurgence Missions",
+      "description": "Mission guides for story campaign, side missions, and world activities in The Division Resurgence.",
+      "metaTitle": "The Division Resurgence Missions - Story & Activity Guides",
+      "metaDescription": "The Division Resurgence mission guides covering story campaign, side missions, open-world activities, and best strategies for solo and co-op.",
+      "categoryLabel": "MISSIONS",
+      "whatIs": "What are Missions?",
+      "whatIsDescription": "Guides to The Division Resurgence missions covering the main story campaign, side missions, strongholds, and open-world activities for efficient progression.",
+      "why": "Why use mission guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Complete the Campaign",
+        "step1Description": "Follow the main story and unlock key progression milestones",
+        "step2Title": "Farm Efficiently",
+        "step2Description": "Identify the best missions for XP, loot, and Battle Pass progression",
+        "step3Title": "Master World Activities",
+        "step3Description": "Take on open-world events, Control Points, and Dark Zone extractions"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Missions"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "factions": {
+      "title": "The Division Resurgence Factions",
+      "description": "Learn about every faction in The Division Resurgence — Freemen, Rikers, Cleaners, and Raiders — with combat profiles and story roles.",
+      "metaTitle": "The Division Resurgence Factions - Enemy Groups & Lore",
+      "metaDescription": "The Division Resurgence faction guide covering Freemen, Rikers, Cleaners, and Raiders. Learn enemy identities, combat tactics, and story roles.",
+      "categoryLabel": "FACTIONS",
+      "whatIs": "What are Factions?",
+      "whatIsDescription": "Guides to every hostile faction in The Division Resurgence, including the new Freemen and returning groups Rikers, Cleaners, and Raiders — with combat profiles and story roles.",
+      "why": "Why know factions?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Understand Enemy Behavior",
+        "step1Description": "Learn each faction's tactics to prepare the right gear and approach",
+        "step2Title": "Follow the Lore",
+        "step2Description": "Connect faction origins to The Division Resurgence story and setting",
+        "step3Title": "Counter Enemy Threats",
+        "step3Description": "Identify faction-specific weaknesses and adapt your loadout"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Factions"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "darkzone": {
+      "title": "The Division Resurgence Dark Zone",
+      "description": "Dark Zone guides for loot farming, extraction strategies, and surviving rogue agents in The Division Resurgence.",
+      "metaTitle": "The Division Resurgence Dark Zone - Extraction Guide & Tips",
+      "metaDescription": "Master The Division Resurgence Dark Zone with extraction strategies, rogue agent tips, loot farming paths, and survival tactics for mobile agents.",
+      "categoryLabel": "DARK ZONE",
+      "whatIs": "What is the Dark Zone?",
+      "whatIsDescription": "The Dark Zone is The Division Resurgence's high-stakes extraction zone where contaminated loot, NPC enemies, and rogue agents create a high-risk, high-reward challenge.",
+      "why": "Why play Dark Zone?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Farm Top-Tier Loot",
+        "step1Description": "Access contaminated gear that cannot be found in regular missions",
+        "step2Title": "Master Extractions",
+        "step2Description": "Learn to time and defend extractions against both NPCs and players",
+        "step3Title": "Survive Rogue Agents",
+        "step3Description": "Identify and counter rogue agent strategies before they steal your loot"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Dark Zone Guides"
     }
   }
 }

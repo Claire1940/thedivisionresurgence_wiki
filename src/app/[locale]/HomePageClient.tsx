@@ -4,23 +4,40 @@ import { useEffect, useState, Suspense, lazy } from 'react'
 import {
   AlertTriangle,
   ArrowRight,
+  Award,
   BookOpen,
+  Calendar,
   Check,
   ChevronDown,
+  ChevronRight,
   ClipboardCheck,
   Clock,
+  Crosshair,
   Eye,
   ExternalLink,
+  Flame,
   Gamepad2,
+  Gift,
+  Globe,
   Hammer,
   Home,
+  Layers,
+  LayoutDashboard,
   MessageCircle,
+  Monitor,
   Package,
+  RefreshCw,
   Settings,
+  Shield,
+  Shuffle,
+  Smartphone,
   Sparkles,
   Star,
+  Target,
+  Trophy,
   TrendingUp,
   Users,
+  Zap,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -705,27 +722,43 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="controller-support" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Gamepad2 className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['divisionResurgenceControllerSupport']} locale={locale}>{t.modules.divisionResurgenceControllerSupport.title}</LinkedTitle></h2>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))] uppercase tracking-wider">Controls</span>
             </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['divisionResurgenceControllerSupport']} locale={locale}>
+                {t.modules.divisionResurgenceControllerSupport.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.divisionResurgenceControllerSupport.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.divisionResurgenceControllerSupport.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`} />
-                </button>
-                {deckExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.divisionResurgenceControllerSupport.items.map((item: any, index: number) => {
+              const controlIcons = [Smartphone, Gamepad2, Monitor, Layers, LayoutDashboard, Shuffle]
+              const ControlIcon = controlIcons[index] || Gamepad2
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 flex flex-col gap-3">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                      <ControlIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm leading-tight">{item.control_method}</h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">{item.support_status}</span>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-xs leading-relaxed">{item.details}</p>
+                  <div className="pt-2 border-t border-border">
+                    <p className="text-xs font-semibold mb-1 text-[hsl(var(--nav-theme-light))]">Best For</p>
+                    <p className="text-xs text-muted-foreground">{item.best_for}</p>
+                  </div>
+                  <div className="flex items-start gap-1.5">
+                    <ChevronRight className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <p className="text-xs text-muted-foreground italic">{item.setup_notes}</p>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -734,24 +767,40 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="battle-pass-and-seasons" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['divisionResurgenceBattlePassAndSeasons']} locale={locale}>{t.modules.divisionResurgenceBattlePassAndSeasons.title}</LinkedTitle></h2>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))] uppercase tracking-wider">Live Service</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['divisionResurgenceBattlePassAndSeasons']} locale={locale}>
+                {t.modules.divisionResurgenceBattlePassAndSeasons.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.divisionResurgenceBattlePassAndSeasons.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.divisionResurgenceBattlePassAndSeasons.settings.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`divisionResurgenceBattlePassAndSeasons::settings::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
-                </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal relative">
+            <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-[hsl(var(--nav-theme)/0.25)]" />
+            <div className="space-y-6">
+              {t.modules.divisionResurgenceBattlePassAndSeasons.milestones.map((milestone: any, index: number) => {
+                const timelineIcons = [Calendar, Clock, RefreshCw, Trophy, Globe, Gift, TrendingUp]
+                const TimelineIcon = timelineIcons[index] || Calendar
+                return (
+                  <div key={index} className="relative flex gap-6 items-start">
+                    <div className="relative z-10 flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                      <TimelineIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div className="flex-1 pb-2">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]">
+                          {milestone.date}
+                        </span>
+                      </div>
+                      <h3 className="font-bold mb-1">{milestone.label}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{milestone.details}</p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -760,27 +809,39 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="exotic-weapons" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['divisionResurgenceExoticWeapons']} locale={locale}>{t.modules.divisionResurgenceExoticWeapons.title}</LinkedTitle></h2>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))] uppercase tracking-wider">Endgame Loot</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['divisionResurgenceExoticWeapons']} locale={locale}>
+                {t.modules.divisionResurgenceExoticWeapons.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.divisionResurgenceExoticWeapons.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.divisionResurgenceExoticWeapons.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <Clock className="w-4 h-4 text-muted-foreground" />
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {t.modules.divisionResurgenceExoticWeapons.items.map((item: any, index: number) => {
+              const exoticIcons = [Crosshair, Award, Target, Zap]
+              const ExoticIcon = exoticIcons[index] || Crosshair
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 flex flex-col gap-4">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <ExoticIcon className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg leading-tight mb-1">{item.name}</h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.category}</span>
+                    </div>
                   </div>
-                  <h3 className="font-bold mb-1">
-                    <LinkedTitle linkData={moduleLinkMap[`divisionResurgenceExoticWeapons::entries::${index}`]} locale={locale}>
-                      {entry.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.why_it_matters}</p>
+                  <div className="mt-auto pt-3 border-t border-border flex items-start gap-2">
+                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                    <p className="text-sm font-medium">{item.player_takeaway}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -789,29 +850,49 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="factions" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['divisionResurgenceFactions']} locale={locale}>{t.modules.divisionResurgenceFactions.title}</LinkedTitle></h2>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <span className="text-xs font-medium text-[hsl(var(--nav-theme-light))] uppercase tracking-wider">World & Enemies</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['divisionResurgenceFactions']} locale={locale}>
+                {t.modules.divisionResurgenceFactions.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.divisionResurgenceFactions.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.divisionResurgenceFactions.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
+            {t.modules.divisionResurgenceFactions.items.map((item: any, index: number) => {
+              const factionIcons = [Shield, Users, Flame, AlertTriangle]
+              const FactionIcon = factionIcons[index] || Shield
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <FactionIcon className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-xl leading-tight">{item.name}</h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.role}</span>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-3 leading-relaxed">{item.identity}</p>
+                  <div className="space-y-2">
+                    <div className="flex items-start gap-2">
+                      <Target className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground"><span className="font-semibold text-foreground">Combat: </span>{item.combat_profile}</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <ChevronRight className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground">{item.story_hook}</p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">
-                    <LinkedTitle linkData={moduleLinkMap[`divisionResurgenceFactions::steps::${index}`]} locale={locale}>
-                      {step.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground">{step.description}</p>
-                </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
           <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
             <div className="flex items-start gap-3">
-              <Package className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
+              <MessageCircle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">Join the Community</h3>
                 <p className="text-sm text-muted-foreground mb-3">Discuss factions and strategies with other agents:</p>
