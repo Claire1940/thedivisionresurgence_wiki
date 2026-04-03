@@ -10,14 +10,7 @@
       "twitterDescription": "The Division Resurgence Wiki covers builds, specializations, Dark Zone, missions, factions, gear, and co-op guides for iOS & Android agents."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
