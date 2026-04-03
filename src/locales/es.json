@@ -1,755 +1,760 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Wiki de The Division Resurgence - Builds, Clases y Dark Zone",
+      "description": "La Wiki de The Division Resurgence cubre builds, specializations, Dark Zone, misiones, facciones, equipo, guías cooperativas y consejos de progresión móvil para nuevos agentes.",
+      "keywords": "The Division Resurgence, builds, Dark Zone, specializations, misiones, equipo, iOS, Android",
+      "ogTitle": "Wiki de The Division Resurgence - Builds, Clases y Dark Zone",
+      "ogDescription": "La Wiki de The Division Resurgence cubre builds, specializations, Dark Zone, misiones, facciones, equipo, guías cooperativas y consejos de progresión móvil para nuevos agentes.",
+      "twitterTitle": "Wiki de The Division Resurgence - Builds, Clases y Dark Zone",
+      "twitterDescription": "La Wiki de The Division Resurgence cubre builds, specializations, Dark Zone, misiones, facciones, equipo y guías cooperativas para agentes de iOS y Android."
     }
   },
   "nav": {
-    "guide": "Game Guides",
-    "release": "Release",
-    "pc": "PC & Emulator",
-    "download": "Download",
-    "codes": "Codes",
-    "classes": "Classes",
-    "support": "Support",
-    "media": "Media"
+    "guide": "Guías del Juego",
+    "release": "Lanzamiento",
+    "pc": "PC y Emulador",
+    "download": "Descargar",
+    "codes": "Códigos",
+    "classes": "Clases",
+    "support": "Soporte",
+    "media": "Multimedia"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
-    "switchLanguage": "Cambiar idioma",
-    "switchTheme": "Cambiar tema",
-    "lightMode": "Modo claro",
-    "darkMode": "Modo oscuro",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar Idioma",
+    "switchTheme": "Cambiar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
     "notFound": "Página no encontrada",
     "notFoundDescription": "La página que buscas no existe.",
-    "backToHome": "Volver al inicio",
-    "relatedArticles": "Artículos relacionados",
+    "backToHome": "Volver al Inicio",
+    "relatedArticles": "Artículos Relacionados",
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "RPG Looter-Shooter Táctico para Móviles",
+    "title": "Wiki de The Division Resurgence",
+    "description": "Explora el juego móvil de Division de Ubisoft con guías para specializations, Dark Zone, cooperativo, builds de equipo, misiones, facciones y progresión de mundo abierto en una Nueva York post-crisis.",
+    "getFreeCodesCTA": "Ver Guías",
+    "playOnSteamCTA": "Jugar en iOS y Android",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "31 de marzo de 2026",
+        "label": "Fecha de Lanzamiento"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "100K+",
+        "label": "Descargas en Google Play"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "100+",
+        "label": "Actividades de Mundo"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "5",
+        "label": "Specializations"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de The Division Resurgence",
+    "description": "Experimenta el RPG looter-shooter táctico móvil de Ubisoft con specializations, Dark Zone, misiones cooperativas y progresión de mundo abierto en la ciudad de Nueva York."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "The Division Resurgence",
+    "titleHighlight": "Guías de la Wiki",
+    "subtitle": "Todo lo que necesitas para dominar builds, Dark Zone, specializations y la progresión de mundo abierto",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Guía para Principiantes de The Division Resurgence",
+        "description": "Primeros pasos, progresión inicial y actividades clave"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "icon": "Download",
+        "title": "Fecha de Lanzamiento y Descarga de The Division Resurgence",
+        "description": "Lanzamiento el 31 de marzo de 2026, iOS y Android"
       },
       {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "icon": "Users",
+        "title": "Specializations de The Division Resurgence",
+        "description": "Bulwark, Demolitionist, Vanguard, Field Medic"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Mejores Armas de The Division Resurgence",
+        "description": "Tipos de armas, prioridades de mejora y consejos de daño"
+      },
+      {
+        "icon": "Star",
+        "title": "Mejores Builds de The Division Resurgence",
+        "description": "Rutas de builds para solitario, cooperativo y PvP"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Habilidades y Gadgets de The Division Resurgence",
+        "description": "Kits de gadgets y habilidades de Specialization"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Guía de la Dark Zone de The Division Resurgence",
+        "description": "Extracción, contaminación y amenazas rogue"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guía PvP de The Division Resurgence",
+        "description": "Modos de conflicto, reglas y estrategia de partida"
+      },
+      {
+        "icon": "Eye",
+        "title": "Actividades de Mundo Abierto de The Division Resurgence",
+        "description": "Más de 100 actividades en la ciudad de Nueva York"
+      },
+      {
+        "icon": "Clock",
+        "title": "Historia y Misiones de The Division Resurgence",
+        "description": "Campaña, cronología y estructura de misiones"
+      },
+      {
+        "icon": "Home",
+        "title": "Guía para Solitario y Cooperativo de The Division Resurgence",
+        "description": "Estilos de juego, beneficios de equipo y consejos para solitario"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Crossplay y Progresión Cruzada de The Division Resurgence",
+        "description": "Reglas de plataforma, cuentas e información del servidor"
+      },
+      {
+        "icon": "Settings",
+        "title": "Soporte para Controles de The Division Resurgence",
+        "description": "Opciones táctiles, PS5, Xbox y Backbone"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Pase de Batalla y Temporadas de The Division Resurgence",
+        "description": "Recompensas de temporada, ruta de XP y desbloqueos exóticos"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Armas Exóticas de The Division Resurgence",
+        "description": "Warlord AR, exóticos del Pase de Batalla y fuentes de botín"
+      },
+      {
+        "icon": "Package",
+        "title": "Facciones de The Division Resurgence",
+        "description": "Freemen, Rikers, Cleaners y Raiders"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+    "divisionResurgenceBeginnerGuide": {
+      "title": "Guía para principiantes de The Division Resurgence",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "El inicio del juego en The Division Resurgence se basa en un tutorial rediseñado, pruebas tempranas de Specialization, exploración de mundo abierto y un crecimiento constante del equipo. El mejor camino inicial es terminar la incorporación, probar roles que se adapten a tu estilo de juego, usar el mundo abierto para mejoras regulares y seguir los sistemas de progresión del juego en lugar de comprometerse demasiado con una sola pieza de equipo demasiado pronto.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Completa el tutorial inicial y la primera misión crítica",
+          "description": "El juego comienza con un flujo inicial renovado que enseña movimiento, disparo, uso de coberturas y habilidades. Aquí es donde The Division Resurgence desbloquea la estructura sobre la cual se construye el resto de tu progresión."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Prueba múltiples Specializations desde el principio",
+          "description": "Durante el flujo del tutorial, puedes probar cada Specialization antes de salir por tu cuenta. Esto te ayuda a elegir un rol que coincida con cómo quieres jugar en The Division Resurgence."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Usa el mundo abierto para mejoras constantes",
+          "description": "Explora Manhattan y rota a través de combates de patrulla, incursiones de facciones, rescates de civiles, tareas de restauración de energía y agua, y otros encuentros mundiales para obtener equipo y recursos de fabricación."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Prioriza los suministros y rescates de rehenes",
+          "description": "Las misiones de suministros traen materiales vitales para tu asentamiento, mientras que los rescates de rehenes liberan civiles y fortalecen a tu bando. Estas actividades son fáciles, repetibles y están ligadas a la progresión inicial."
+        },
+        {
+          "title": "Mejora el equipo, pero no te aferres a un objeto para siempre",
+          "description": "Las armas y el equipo se pueden mejorar temprano con materiales obtenidos en las misiones. Las mejoras ayudan a que un arma favorita siga siendo útil, pero los nuevos botines eventualmente reemplazarán al equipo antiguo."
+        },
+        {
+          "title": "Sigue el puntaje de poder y las builds recomendadas",
+          "description": "The Division Resurgence añade un puntaje de poder recomendado para actividades y misiones, además de una guía de builds que te orienta hacia un crecimiento más rápido de personajes y equipo."
+        },
+        {
+          "title": "Usa el viaje rápido una vez desbloqueadas las actividades",
+          "description": "Se puede viajar rápido directamente desde el mapa a las actividades de mundo abierto desbloqueadas. Esto reduce el tiempo de inactividad y hace que el farmeo, las rutas diarias y los ciclos de progresión sean mucho más eficientes."
+        },
+        {
+          "title": "Guarda los modos de juego final más difíciles para después",
+          "description": "Los desafíos de instancias legendarias, las sesiones de Dark Zone y el contenido de mayor dificultad están pensados para builds más fuertes. Construye los fundamentos primero y luego entra en el contenido más difícil una vez que estés listo."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Las Specializations se pueden cambiar entre misiones, así que experimenta sin presión.",
+        "Las actividades de mundo abierto te proporcionan regularmente equipo, munición y recursos de fabricación.",
+        "El puntaje de poder recomendado te ayuda a evitar entrar en contenido demasiado pronto.",
+        "Dark Zone y las instancias legendarias están diseñadas para jugadores con equipo más fuerte y sinergia de roles."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
+    "divisionResurgenceReleaseDateAndDownload": {
+      "title": "Fecha de lanzamiento y descarga de The Division Resurgence",
       "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "intro": "The Division Resurgence ya está disponible en dispositivos móviles y se puede descargar a través de las tiendas de aplicaciones oficiales. Ubisoft anunció un lanzamiento el 31 de marzo para iOS y Android, con Asia y Oceanía abriendo primero y el resto del mundo siguiendo el mismo día.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Fecha de lanzamiento global: 31 de marzo de 2026",
+          "description": "Asia y Oceanía abrieron primero a las 9:00 AM CEST, con el acceso global comenzando a la 1:00 PM CEST el mismo día."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Plataformas: iOS y Android",
+          "description": "El juego está disponible en la Apple App Store y Google Play. Ambas páginas de la tienda confirman que está disponible y se puede descargar en todo el mundo."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Precio: Gratis (Free to Play)",
+          "description": "The Division Resurgence es gratuito para descargar y jugar tanto en iOS como en Android, con compras opcionales dentro de la aplicación."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Tamaño en la App Store: 3.9 GB",
+          "description": "Apple indica que el tamaño de la aplicación para iPhone y iPad es de 3.9 GB. Requiere iOS 14.0 o posterior y un chip A12 Bionic o posterior."
+        },
+        {
+          "name": "Descargas en Google Play: más de 100,000",
+          "description": "La ficha de Google Play muestra más de 100,000 descargas y una calificación de 4.5 estrellas de más de 20,000 reseñas."
+        },
+        {
+          "name": "Compatible con controles en iOS",
+          "description": "La página de la App Store marca explícitamente a The Division Resurgence como compatible con controles para jugadores de iOS."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "iOS App Store",
+        "Google Play",
+        "Gratis (Free to Play)",
+        "Compatible con controles"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
+    "divisionResurgenceSpecializations": {
+      "title": "Specializations de The Division Resurgence",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "intro": "Las Specializations en The Division Resurgence son paquetes basados en roles construidos en torno a la función del equipo, dispositivos únicos y poderosas habilidades definitivas. Puedes cambiar de rol más adelante, por lo que el sistema recompensa la experimentación en lugar del compromiso permanente.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Bulwark",
+          "type": "Tanque",
+          "description": "Diseñado para jugadores que quieren absorber presión y mantener el espacio. Mencionado por Ubisoft como la opción ideal cuando un equipo necesita un rol de tanque. Ideal para jugadores que gustan de la supervivencia, el control y la utilidad grupal."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "Demolitionist",
+          "type": "Distribuidor de daño",
+          "description": "Utiliza un lanzagranadas explosivo, minas rastreadoras explosivas y una torreta automática para una presión ofensiva sostenida. Ideal para jugadores que buscan una salida de daño puro y una limpieza rápida de enemigos."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Vanguard",
+          "type": "Asalto táctico",
+          "description": "Rediseñado para usar Smart Cover que mejora la protección y la potencia de fuego. Scanning Pulse marca objetivos para aumentar el daño, y Tactical Link otorga un aumento de daño temporal. Ideal para posicionamiento táctico y avances coordinados."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Field Medic",
+          "type": "Soporte",
+          "description": "Puede curar a sus compañeros y mantener a los escuadrones con vida por más tiempo. Un segundo enfoque cambia el rol a daño por veneno corrosivo y denegación de área. Ideal para jugadores que disfrutan de la utilidad cooperativa y el liderazgo de apoyo."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Tech Operator",
+          "type": "Tecnología",
+          "description": "Centrado en la utilidad impulsada por dispositivos, aportando herramientas técnicas a los encuentros de equipo. Ideal para jugadores que quieren dar forma a las condiciones del campo de batalla a través de despliegues tecnológicos."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
+    "divisionResurgenceBestWeapons": {
+      "title": "The Division Resurgence Best Weapons",
       "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "intro": "The Division Resurgence rewards smart weapon investment, model-wide Armory upgrades, and adapting damage types to enemy armor. The strongest weapon choices are the ones that fit your role, survive the upgrade curve, and stay useful into harder content.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Military MP5",
+          "role": "Submachine Gun",
+          "description": "Ubisoft uses the Military MP5 as the clearest example of an early favorite worth upgrading. Good for fast early-game combat and close-to-mid-range fights."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "M700",
+          "role": "Marksman Rifle",
+          "description": "Ubisoft highlights the M700 when explaining Armory upgrades that apply to every copy of the same weapon model. Strong for precision play, ranged picks, and deliberate high-impact shots."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Warlord Assault Rifle",
+          "role": "Exotic Assault Rifle",
+          "description": "Called out as a major Battle Pass reward in official beta materials. Best treated as a progression goal rather than a first-session weapon."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Explosive Grenade Launcher",
+          "role": "Signature Weapon",
+          "description": "Directly tied to the Demolitionist specialization and part of its damage identity. Most valuable when paired with a Demolitionist build and aggressive positioning."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Match damage types to enemy armor for maximum efficiency in harder content.",
+        "Armory upgrades apply to every copy of the same weapon model.",
+        "Blast, Shredding, and Piercing damage types matter more in higher-level activities.",
+        "Enemy armor bars reveal weaknesses, so adapt your loadout to the encounter."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
+    "divisionResurgenceBestBuilds": {
+      "title": "The Division Resurgence Best Builds",
       "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "intro": "In The Division Resurgence, Specializations are built around playstyle roles instead of a single signature weapon. The most practical builds are easy to group into three user-facing paths: solo progression, co-op support, and PvP pressure.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "name": "Vanguard Pressure Build",
+          "description": "A practical all-rounder for solo and PvE. Uses Smart Cover, Scanning Pulse, and Tactical Link for strong positioning, survivability, and burst windows. Best for main missions and open-world activities."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "name": "Field Medic Support Build",
+          "description": "The safest squad-oriented path for keeping teams alive. Can heal allies or apply corrosive poison for area control. Best for Legendary Instance Challenge, 4-player content, and teams that need sustain."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "name": "Demolitionist Control Build",
+          "description": "A damage-heavy path that rewards explosive pressure and lane control. Uses grenade launcher, seeker mines, and an automatic turret. Best for enemy-heavy activities and aggressive group play."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "name": "Bulwark Tank Build",
+          "description": "A team-first build for players who want to absorb pressure and stabilize difficult encounters. Ubisoft frames Bulwark as the tank answer when a group already has a healer."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "Solo / PvE Ready",
+        "Co-op Optimized",
+        "PvP Capable",
+        "Endgame Viable"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
+    "divisionResurgenceSkillsAndGadgets": {
+      "title": "The Division Resurgence Skills and Gadgets",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
+      "intro": "Combat rhythm in The Division Resurgence is driven by role-based gadget kits. Each specialization changes how you fight, support allies, and control space. Understanding what gadgets belong to each specialization is key to building effective loadouts.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "name": "Vanguard",
+          "type": "Frontline Tactical",
+          "description": "Smart Cover enhances protection and firepower from cover. Scanning Pulse marks nearby targets to take increased damage. Tactical Link grants a temporary damage boost and auto-aim support. Best for cover-based firefights and team pushes."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "Demolitionist",
+          "type": "Explosive Damage",
+          "description": "Grenade launcher delivers heavy explosive burst. Seeker mines pressure enemy groups. Turret adds sustained ranged support. Best for crowd control, downfield pressure, and breaking entrenched enemies."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "name": "Field Medic",
+          "type": "Healing and Control",
+          "description": "Healing tools keep teammates alive longer. Support focus reinforces squad sustain. Alternate focus applies lingering poison and controls larger areas. Best for 4-player missions and sustained fights."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Skill Mods and OS Protocols",
+          "type": "Build Customization",
+          "description": "Skill Mods change the way skills are used. OS Protocols add stat bonuses and special talents that alter specialization gameplay. Best for fine-tuning playstyle and extending specialization identity."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
+    "divisionResurgenceDarkZoneGuide": {
+      "title": "The Division Resurgence Dark Zone Guide",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
+      "intro": "The Dark Zone is The Division Resurgence's signature high-risk extraction activity. The loop combines contaminated loot, timed pressure, hostile NPCs, and the threat of other players turning on you.",
       "creatures": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "Enter a Session-Based Run",
+          "role": "Step 1",
+          "description": "The Dark Zone starts as a matchmade session. You can enter solo or with up to 3 other players, and all participants begin the activity at the same time."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "Manage Contamination Pressure",
+          "role": "Step 2",
+          "description": "Masks are required in the DZ, but their filters only protect you for a limited time. If you stay too long without extracting, infection rises rapidly and the run becomes far more dangerous."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
+          "name": "Farm Contaminated Loot",
+          "role": "Step 3",
+          "description": "Enemies, crates, and player kills can drop Contaminated Loot. This loot cannot be equipped immediately and only becomes safe after extraction and decontamination."
         },
         {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "name": "Call the Helicopter at Extraction",
+          "role": "Step 4",
+          "description": "To secure your gains in The Division Resurgence, go to an Extraction Point and fire a flare gun. The SHD helicopter sends down one rope for your loot and another for your personal extraction."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "Watch for Rogues and Plan Routes",
+          "role": "Step 5",
+          "description": "Other players can kill you and take dropped loot, and even allies can turn on you. Solo Queue Dark Zone was added so solo players can avoid full-squad crossfire."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
+    "divisionResurgencePvPGuide": {
+      "title": "Guía de PvP de The Division Resurgence",
       "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "intro": "El PvP de The Division Resurgence se divide entre partidas estructuradas de Conflicto y el ciclo de amenazas de jugadores más peligroso de la Dark Zone. Los jugadores nuevos principalmente deben entender el juego por objetivos, la normalización de estadísticas y dónde las builds siguen siendo importantes.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "name": "Dominación de Conflicto",
+          "type": "4v4 estructurado",
+          "description": "Dos equipos de 4 jugadores capturan y mantienen objetivos. Cada objetivo capturado otorga 1 punto por segundo. El primero en llegar a 100 gana. El poder del jugador se normaliza, pero se conservan las bonificaciones de los talentos de armas."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "name": "Dark Zone PvPvE",
+          "type": "Basado en extracción",
+          "description": "Lucha contra enemigos y recoge botín contaminado. Extrae antes de que la presión de la contaminación te abrume. Otros jugadores pueden atacar y robar el botín soltado. El comportamiento Renegado es parte del diseño de riesgo-recompensa del modo."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "name": "Qué se mantiene de tu build",
+          "type": "Relevancia de la build",
+          "description": "En Dominación de Conflicto, las estadísticas normalizadas reducen la presión de la brecha de equipo, pero los talentos de armas siguen importando. Vanguard y las herramientas de apoyo aún pueden definir los combates incluso en el PvP normalizado."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "Juega primero por los objetivos en Conflicto",
+        "No trates la Dark Zone como un PvP de arena",
+        "Los talentos de armas importan incluso en modos normalizados",
+        "Fila en solitario para la Dark Zone disponible para jugar solo"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
+    "divisionResurgenceOpenWorldActivities": {
+      "title": "Actividades de mundo abierto de The Division Resurgence",
       "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "intro": "Resurgence no se basa solo en misiones. El mundo abierto es una capa de progresión importante con actividades repetibles, recolección de recursos y encuentros dinámicos con facciones. Los materiales oficiales confirman más de 100 actividades mundiales en toda la ciudad de Nueva York compartida.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "name": "Patrullas hostiles",
+          "description": "Los grupos de enemigos que deambulan pueden ser interceptados mientras exploras la ciudad. Son buenos para combates rápidos, botín constante y para que las rutas de viaje sean productivas. Trata a las patrullas como recolección de baja fricción entre objetivos más grandes."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "name": "Incursiones enemigas en ubicaciones clave",
+          "description": "Las facciones intentan asaltar puntos importantes de la ciudad, creando eventos de combate reactivos. Estas peleas hacen que el mundo se sienta activo y suelen dar una razón de peso para dejar de deambular y entrar en combate."
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "name": "Restauración de servicios",
+          "description": "Algunas actividades se centran en restaurar el acceso a servicios como energía o agua. Estos objetivos refuerzan la temática de The Division Resurgence de estabilizar la ciudad, no solo de buscar bajas."
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "name": "Rescate de rehenes",
+          "description": "Los civiles pueden ser tomados como rehenes y necesitan intervención. Ubisoft mencionó específicamente el rescate de rehenes como una de las actividades recurrentes en The Division Resurgence. Despeja los ángulos primero antes de entrar en la zona de rehenes."
+        },
+        {
+          "name": "Captura de suministros",
+          "description": "Los detalles de las primeras pruebas listaron la captura de suministros como una actividad de mundo abierto favorita de los fans. Es uno de los ejemplos más claros de contenido mundial repetible vinculado a la progresión práctica."
+        },
+        {
+          "name": "Rutas de recursos y botín",
+          "description": "La exploración del mundo abierto recompensa regularmente con equipo, munición y recursos de fabricación. The Division Resurgence vincula el deambular directamente con las mejoras de botín, la investigación y la fabricación."
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "Más de 100 actividades mundiales",
+        "Viaje rápido desbloqueado",
+        "Equipo obtenido por exploración",
+        "Ciclos de recolección repetibles"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
+    "divisionResurgenceStoryAndMissions": {
+      "title": "Historia y misiones de The Division Resurgence",
       "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "intro": "Ubisoft posiciona a The Division Resurgence como una campaña independiente con nuevos villanos, facciones y personajes. La cobertura oficial del lanzamiento sitúa la historia entre los eventos de The Division y The Division 2.",
       "priorities": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "name": "Una nueva historia canon en el universo de The Division",
+          "priority": "Premisa",
+          "description": "The Division Resurgence es una extensión oficial de la franquicia con su propia trama. Es un RPG de disparos en tercera persona gratuito para móviles con nuevos villanos y facciones."
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "name": "Ambientado entre The Division y The Division 2",
+          "priority": "Cronología",
+          "description": "La campaña ocurre después del colapso inicial pero antes de The Division 2. Muestra eventos desde la perspectiva de los agentes de la primera oleada de la SHD y otorga contexto adicional sobre el estado de Nueva York."
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "name": "Estructura de la campaña: misiones de historia más progresión en mundo abierto",
+          "priority": "Estructura",
+          "description": "Los jugadores avanzan a través de una campaña dedicada mientras usan actividades de mundo abierto para fortalecer al personaje y el equipo. A una incorporación estilo entrenamiento le siguen misiones de la historia principal apoyadas por tareas de mundo abierto."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "name": "Viejos enemigos regresan junto a un nuevo grupo enemigo",
+          "priority": "Facciones",
+          "description": "Las facciones que regresan incluyen a los Raiders, Rikers y Cleaners. Los Freemen se describen como una nueva amenaza centrada en el saqueo cuyos ataques están aumentando en toda la ciudad."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
+    "divisionResurgenceSoloAndCoopGuide": {
+      "title": "Guía para jugar en solitario y cooperativo en The Division Resurgence",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "intro": "The Division Resurgence está diseñado para admitir jugadores en solitario, pero el cooperativo permite completar misiones más rápido, facilita la recuperación y ofrece mejor flexibilidad para el contenido más difícil. Puedes formar un escuadrón con hasta tres compañeros para un grupo de cuatro jugadores.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "Misiones de historia",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "En solitario",
+              "description": "Totalmente jugable en solitario e ideal para aprender los controles, el ritmo y el flujo de las misiones."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "title": "Cooperativo",
+              "description": "Jugable con hasta tres compañeros, lo que facilita la gestión de la presión en el combate."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "Ideal para",
+              "description": "En solitario para aprender por primera vez; cooperativo para completar misiones con más fluidez y potencia de fuego compartida."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "Actividades de mundo abierto",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "title": "En solitario",
+              "description": "Eficiente para sesiones cortas, deambular y completar tareas rápidas a tu propio ritmo."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
+              "title": "Cooperativo",
+              "description": "Mejor para encadenar eventos, reanimaciones y manejar combates repentinos desde múltiples ángulos."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "title": "Ideal para",
+              "description": "En solitario para recolectar de forma relajada; cooperativo para ciclos de recolección más largos y menos tiempo de inactividad."
             }
           ]
         },
         {
-          "name": "Movilidad y utilidad",
+          "name": "Dark Zone",
           "achievements": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "title": "En solitario",
+              "description": "Jugable solo, pero el riesgo es mucho mayor porque otros jugadores y las amenazas de los PNJ se superponen."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
+              "title": "Cooperativo",
+              "description": "Un equipo brinda mayor seguridad en la extracción, mejor cobertura y rutas de botín más seguras."
             },
             {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "title": "Ideal para",
+              "description": "Cooperativo, a menos que disfrutes específicamente del juego PvPvE en solitario de alto riesgo."
             }
           ]
         },
         {
-          "name": "Combate y criaturas",
+          "name": "Modos PvP",
           "achievements": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "title": "En solitario",
+              "description": "Bueno para probar tus propias mecánicas y aprender los mapas y enfrentamientos."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
+              "title": "Cooperativo",
+              "description": "Un grupo coordinado puede cubrir carriles, objetivos y la sinergia de roles de manera más efectiva."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
+              "title": "Ideal para",
+              "description": "En solitario para practicar; cooperativo para un rendimiento de equipo más estructurado."
             }
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
+          "name": "Ritmo de progresión",
           "achievements": [
             {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "title": "En solitario",
+              "description": "Constante y completamente viable, especialmente para los jugadores que priorizan la campaña en The Division Resurgence."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
+              "title": "Cooperativo",
+              "description": "A menudo más rápido en la práctica porque los combates terminan antes y los errores se castigan menos."
             },
             {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "Ideal para",
+              "description": "En solitario para tener independencia; cooperativo para eficiencia y una progresión de equipo más rápida."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
+    "divisionResurgenceCrossplayAndCrossProgression": {
+      "title": "Juego cruzado y progresión cruzada en The Division Resurgence",
       "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
+      "intro": "Para una configuración práctica de la cuenta en The Division Resurgence, tus dispositivos pueden compartir la misma progresión, pero los datos de tu personaje siguen vinculados al servidor donde se creó dicho personaje.",
       "faqs": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "¿The Division Resurgence es compatible con el juego cruzado?",
+          "answer": "Sí. The Division Resurgence es totalmente multiplataforma, por lo que los jugadores en diferentes plataformas móviles compatibles pueden jugar juntos siempre que estén en el mismo servidor."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "¿Se comparte la progresión entre plataformas en The Division Resurgence?",
+          "answer": "Sí. Si usas la misma cuenta de Ubisoft Connect en todas las plataformas, tu progreso se guarda y se comparte, lo que te permite moverte entre dispositivos sin perder tu progresión."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "¿Se comparten las compras dentro de la aplicación entre dispositivos?",
+          "answer": "Sí, las compras se comparten entre plataformas cuando mantienes la misma cuenta de Ubisoft Connect. Sin embargo, las compras permanecen vinculadas al servidor en el que se realizaron."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "question": "¿Puedo cambiar de servidor libremente en The Division Resurgence?",
+          "answer": "Puedes cambiar de servidor en cualquier momento, pero tus personajes y su progresión permanecen vinculados a su servidor original. Cambiar de servidor no traslada la progresión del personaje."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "question": "¿Puedo transferir botín, skins o moneda entre personajes?",
+          "answer": "No. El botín, el equipo, las skins y la moneda desbloqueados en un personaje están vinculados a ese personaje y no se pueden transferir a otro."
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "¿El progreso de las pruebas anteriores se transfiere al lanzamiento?",
+          "answer": "La progresión de las pruebas anteriores no se transfiere al lanzamiento. Algunas recompensas externas o vinculadas se pueden reclamar y se asignan al primer personaje con el que inicies sesión después de reclamarlas."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+    "divisionResurgenceControllerSupport": {
+      "title": "Soporte para controles en The Division Resurgence",
+      "displayType": "comparisonCards",
+      "intro": "The Division Resurgence está diseñado principalmente para el juego portátil, pero admite múltiples métodos de entrada. Las actualizaciones oficiales de Ubisoft confirman controles táctiles optimizados, diseños personalizables, además de soporte para controles de PS5, Xbox y Backbone con una interfaz de batalla dedicada para controles.",
+      "items": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "control_method": "Controles táctiles optimizados",
+          "support_status": "Compatible oficialmente",
+          "best_for": "Juego móvil predeterminado, sesiones rápidas, sin hardware adicional",
+          "details": "Ubisoft afirma que los controles táctiles predeterminados están totalmente optimizados para el juego móvil. Los jugadores pueden personalizar la distribución de los botones y la sensibilidad de la cámara.",
+          "setup_notes": "Funciona de inmediato en todos los dispositivos móviles."
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "control_method": "Control de PS5",
+          "support_status": "Compatible oficialmente",
+          "best_for": "Puntería al estilo de consola y sesiones más largas",
+          "details": "Ubisoft confirma el soporte para el control de PlayStation 5 como una opción enfocada en la precisión con entradas familiares y una ergonomía más cómoda.",
+          "setup_notes": "Vincula el control a tu teléfono o tableta, luego ajusta la distribución y la configuración de sensibilidad en el juego."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "control_method": "Control de Xbox",
+          "support_status": "Compatible oficialmente",
+          "best_for": "Controles de disparo consistentes en PvE y PvP",
+          "details": "Ubisoft confirma el soporte para el control de Xbox y lo describe como una opción que ofrece los mismos beneficios de precisión y comodidad que el control de PS5.",
+          "setup_notes": "Vincula el control a tu dispositivo móvil antes de iniciar o mientras estés en el juego."
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "control_method": "Control Backbone",
+          "support_status": "Compatible oficialmente",
+          "best_for": "Configuración portátil centrada en el teléfono",
+          "details": "Ubisoft menciona explícitamente el soporte para Backbone como una forma de convertir un teléfono en una configuración de disparo táctico más dedicada.",
+          "setup_notes": "Conecta el control al teléfono y ajusta los controles en la configuración."
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "control_method": "Interfaz de batalla específica para controles",
+          "support_status": "Agregada oficialmente en las actualizaciones de la beta",
+          "best_for": "Jugadores que dejan de usar los controles táctiles",
+          "details": "Las notas del parche de la beta regional confirman que se agregó una nueva interfaz de batalla exclusivamente para controles, con una lógica de operación de control optimizada y adaptación de gatillos.",
+          "setup_notes": "Relevante al usar cualquier control compatible en lugar del táctil."
+        },
+        {
+          "control_method": "Entrada híbrida",
+          "support_status": "Reconocido oficialmente",
+          "best_for": "Jugadores que buscan flexibilidad en sus sesiones",
+          "details": "Ubisoft describe el juego como compatible con controles táctiles, controles físicos o un enfoque híbrido según la preferencia del jugador.",
+          "setup_notes": "Usa el menú de configuración para adaptar la sensibilidad y el diseño según tu estilo de entrada preferido."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
+    "divisionResurgenceBattlePassAndSeasons": {
+      "title": "Pase de batalla y temporadas de The Division Resurgence",
       "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
+      "intro": "Para los agentes a largo plazo en The Division Resurgence, el Pase de batalla se integra en un ciclo de contenido estacional de misiones, actividades y recompensas crecientes. Ubisoft confirma rutas de participación tanto gratuitas como prémium, con XP obtenida a través del juego en lugar de gastos.",
+      "milestones": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "date": "Junio de 2023",
+          "label": "Hoja de ruta de la beta regional: Introducción de la estructura estacional",
+          "details": "Ubisoft describió formalmente un despliegue de contenido estacional con nuevas actividades, misiones, armas, skins y más. Se confirmó la participación en el Pase de batalla tanto gratuita como prémium."
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "date": "Jun–Jul 2023",
+          "label": "Fase 1 de la beta regional",
+          "details": "Comenzó la primera prueba de servicio en vivo, sirviendo como un banco de pruebas temprano para la progresión, las misiones, los sistemas de monetización y la estructura del Pase de batalla."
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "date": "Ago–Sep 2023",
+          "label": "Fase 2 de la beta regional",
+          "details": "La segunda fase de la beta continuó con el enfoque de prueba estacional. La progresión de los jugadores se reinició para que Ubisoft pudiera reequilibrar el juego para la siguiente etapa."
+        },
+        {
+          "date": "Noviembre de 2023",
+          "label": "Recompensas del Pase de batalla ampliadas",
+          "details": "Ubisoft hizo que las recompensas del Pase de batalla fueran más interesantes y destacó el rifle de asalto Warlord como una nueva recompensa exótica en el Pase de batalla de la beta regional."
+        },
+        {
+          "date": "Nov–Dic 2025",
+          "label": "Nueva beta regional: EE. UU. y Brasil",
+          "details": "Una actualización de los desarrolladores anunció otra beta regional, mostrando que el camino hacia el lanzamiento del juego seguía dependiendo de pruebas en vivo por etapas antes del lanzamiento global."
+        },
+        {
+          "date": "31 de marzo de 2026",
+          "label": "Lanzamiento mundial",
+          "details": "The Division Resurgence se lanzó globalmente en iOS y Android como un título en constante evolución con contenido adicional regular que amplía la historia, el mundo y los desafíos."
+        },
+        {
+          "date": "En curso",
+          "label": "Ciclo de progresión estacional",
+          "details": "Los agentes obtienen XP del Pase de batalla al jugar misiones y actividades. Las recompensas se desbloquean progresivamente por nivel e incluyen objetos, armas, materiales, skins y recompensas exóticas."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
+    "divisionResurgenceExoticWeapons": {
+      "title": "Armas exóticas de The Division Resurgence",
+      "displayType": "cardGrid",
+      "intro": "Las armas exóticas en The Division Resurgence están vinculadas al Battle Pass y al progreso de temporada. Ubisoft ya ha confirmado el Rifle de Asalto Warlord como una exótica con nombre, con exóticas adicionales que se desbloquean a través de misiones, actividades y las rutas de recompensas del Battle Pass.",
+      "items": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "name": "Rifle de Asalto Warlord",
+          "category": "Exótica confirmada",
+          "why_it_matters": "Nombrado por Ubisoft como un arma exótica desbloqueada a través del Battle Pass de la Beta Regional. El arma exótica confirmada oficialmente más clara con una ruta de obtención verificada.",
+          "player_takeaway": "Sigue el progreso del Battle Pass primero si quieres un objetivo de búsqueda de exóticas verificado en The Division Resurgence."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "name": "Exóticas del Battle Pass de temporada",
+          "category": "Categoría de recompensa",
+          "why_it_matters": "Ubisoft confirma que las recompensas del Battle Pass incluyen armas exóticas muy codiciadas. Las exóticas son parte del ciclo principal de retención estacional, no contenido secundario.",
+          "player_takeaway": "Jugar a través de las temporadas es una de las principales rutas de obtención de exóticas en The Division Resurgence."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "name": "Ruta de XP de misiones y actividades",
+          "category": "Fuente de progreso",
+          "why_it_matters": "Los agentes ganan XP del Battle Pass al participar en misiones y actividades, y luego desbloquean niveles de recompensa. La ruta de las exóticas está vinculada al juego rutinario.",
+          "player_takeaway": "Completar misiones regularmente y farmear actividades alimentan la ruta de desbloqueo de exóticas en The Division Resurgence."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "name": "Rediseño de los Sealed Caches",
+          "category": "Sistema de botín de apoyo",
+          "why_it_matters": "Ubisoft rediseñó los Sealed Caches para mejorar el contenido y hacerlos más fáciles de obtener al jugar. Esto apoya la economía de botín más amplia en torno al progreso del endgame.",
+          "player_takeaway": "La búsqueda de exóticas en The Division Resurgence se encuentra dentro de un ecosistema de recompensas más amplio, no solo en una ruta de menú."
+        }
+      ]
+    },
+    "divisionResurgenceFactions": {
+      "title": "Facciones de The Division Resurgence",
+      "displayType": "factionCards",
+      "intro": "The Division Resurgence mezcla facciones enemigas que regresan de Nueva York con los nuevos Freemen, creados exclusivamente para este juego. La cobertura oficial del lanzamiento confirma cuatro grupos hostiles principales: Raiders, Rikers, Cleaners y los nuevos Freemen.",
+      "items": [
+        {
+          "name": "Freemen",
+          "role": "Nueva facción de la franquicia",
+          "identity": "Preparacionistas del fin del mundo de Midtown Manhattan formados en los primeros días del brote de la Gripe del Dólar, liderados por Arthur King.",
+          "combat_profile": "Usan poderosas armas caseras y están obsesionados con la recolección y el acaparamiento de materiales útiles.",
+          "story_hook": "Ubisoft presenta a los Freemen como una nueva gran amenaza cuyos ataques están aumentando en toda la ciudad en The Division Resurgence."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "name": "Rikers",
+          "role": "Facción que regresa de Nueva York",
+          "identity": "Reclusos fugados de la prisión de Rikers Island con una fuerte identidad criminal heredada del lore de Division.",
+          "combat_profile": "Una facción violenta a nivel de calle que lucha por el control de Nueva York durante la crisis.",
+          "story_hook": "Regresan como uno de los grupos hostiles conocidos de la franquicia, compitiendo por territorio en The Division Resurgence."
+        },
+        {
+          "name": "Cleaners",
+          "role": "Facción que regresa de Nueva York",
+          "identity": "Antiguos trabajadores de limpieza que creen que el virus solo puede detenerse quemándolo.",
+          "combat_profile": "Conocidos por sus tácticas agresivas basadas en el fuego y su brutalidad ideológica; uno de los enemigos emblemáticos de la franquicia.",
+          "story_hook": "Confirmados como parte del elenco de facciones de The Division Resurgence, manteniendo su papel distintivo como fanáticos que usan el fuego."
+        },
+        {
+          "name": "Raiders",
+          "role": "Facción hostil que regresa",
+          "identity": "Un grupo hostil veterano entre las facciones que luchan por el control de Nueva York.",
+          "combat_profile": "Presentados como uno de los grupos violentos establecidos contra los que los agentes de Division deben luchar.",
+          "story_hook": "Su inclusión ayuda a vincular The Division Resurgence con el colapso original de la ciudad y la guerra de facciones."
         }
       ]
     }
@@ -757,177 +762,217 @@
   "faq": {
     "title": "Preguntas",
     "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "subtitle": "Todo lo que necesitas saber sobre The Division Resurgence",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Es The Division Resurgence gratuito?",
+        "answer": "Sí. The Division Resurgence se puede descargar y jugar gratis en iOS y Android, con compras opcionales dentro de la aplicación disponibles."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cuándo se lanzó The Division Resurgence?",
+        "answer": "The Division Resurgence se lanzó el 31 de marzo de 2026 para iOS y Android a nivel mundial. Asia y Oceanía abrieron primero, y el resto del mundo les siguió el mismo día."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿En qué plataformas está disponible The Division Resurgence?",
+        "answer": "The Division Resurgence está disponible en iOS y Android. Requiere iOS 14.0 o posterior con chip A12 Bionic en dispositivos Apple."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿The Division Resurgence admite juego cruzado?",
+        "answer": "Sí. The Division Resurgence es totalmente multiplataforma. Los jugadores en iOS y Android pueden jugar juntos siempre que estén en el mismo servidor."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Cuántas Specialization hay en The Division Resurgence?",
+        "answer": "The Division Resurgence tiene cinco Specialization: Bulwark (Tanque), Demolitionist (Daño), Vanguard (Táctico), Field Medic (Apoyo) y Tech Operator (Tecnología)."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Qué es la Dark Zone en The Division Resurgence?",
+        "answer": "La Dark Zone es la actividad de extracción de alto riesgo de The Division Resurgence donde los jugadores farmean botín contaminado, enfrentan amenazas de PNJ y corren el riesgo de que otros jugadores roben sus ganancias antes de la extracción."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para jugar The Division Resurgence?",
+    "description": "¡Únete a la comunidad de The Division Resurgence en Reddit para obtener guías, actualizaciones y discusiones de agentes!",
+    "joinCommunity": "Unirse a la comunidad de Reddit",
+    "joinGame": "Jugar en iOS y Android"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Wiki de The Division Resurgence",
+    "description": "Tu centro de recursos completo para builds, Specialization, Dark Zone, misiones, facciones y guías de progresión móvil de The Division Resurgence.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Comunidad de Reddit",
+    "twitter": "r/thedivision",
+    "steamCommunity": "Google Play",
+    "steamStore": "App Store",
     "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
+    "copyright": "© 2026 Wiki de The Division Resurgence. No afiliado con Ubisoft ni The Division Resurgence.",
     "disclaimer": "Sitio web de recursos no oficial creado por fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "guide": {
+      "title": "Guías de Juego de The Division Resurgence",
+      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas para agentes. Domina las Specialization, la Dark Zone, la fabricación y tácticas de mundo abierto.",
+      "metaTitle": "Guías de Juego de The Division Resurgence - Estrategias de Principiante a Avanzado",
+      "metaDescription": "Guías completas de The Division Resurgence que cubren consejos para principiantes, Dark Zone, fabricación, clanes y tácticas avanzadas de agentes para iOS y Android.",
+      "categoryLabel": "GUÍAS DE JUEGO",
+      "whatIs": "¿Qué son las Guías de Juego?",
+      "whatIsDescription": "Guías exhaustivas que cubren las mecánicas de juego de The Division Resurgence, builds de Specialization, estrategias de la Dark Zone, sistemas de fabricación y consejos de progresión. Aprende todo, desde los primeros pasos hasta el endgame.",
+      "why": "¿Por qué leer guías de juego?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Aprende las Mecánicas Principales",
+        "step1Description": "Entiende las Specialization, habilidades y equipo para evitar errores comunes de principiante",
+        "step2Title": "Progresión Rápida",
+        "step2Description": "Sigue rutas probadas para subir de nivel y desbloquear builds poderosas más rápido",
+        "step3Title": "Domina las Estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para la Dark Zone, cooperativo y contenido de endgame"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Juego"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "release": {
+      "title": "Fecha de Lanzamiento e Información de Estreno de The Division Resurgence",
+      "description": "Cronología completa del lanzamiento, detalles del estreno global, bonificaciones de prerregistro e historial de lanzamiento de The Division Resurgence.",
+      "metaTitle": "Fecha de Lanzamiento de The Division Resurgence - Estreno Global e Historial",
+      "metaDescription": "The Division Resurgence se lanzó globalmente el 31 de marzo de 2026 para iOS y Android. Descubre las bonificaciones de prerregistro, el despliegue regional y la cronología de lanzamiento.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es la Cronología de Lanzamiento?",
+      "whatIsDescription": "Historial completo del desarrollo y lanzamiento de The Division Resurgence, desde las betas regionales hasta el estreno global el 31 de marzo de 2026 en iOS y Android.",
+      "why": "¿Por qué consultar la información de lanzamiento?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Confirma la Fecha de Estreno",
+        "step1Description": "Verifica la fecha oficial de lanzamiento global y el orden de despliegue regional",
+        "step2Title": "Reclama Bonificaciones de Prerregistro",
+        "step2Description": "Conoce qué recompensas obtienes por prerregistrarte antes del lanzamiento global",
+        "step3Title": "Sigue el Historial de Lanzamiento",
+        "step3Description": "Entiende la cronología de la beta y cómo evolucionó el juego antes de su estreno"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacado y Esencial",
+      "all": "Toda la Información de Lanzamiento"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "pc": {
+      "title": "Guía de PC y Emuladores de The Division Resurgence",
+      "description": "Cómo jugar The Division Resurgence en PC usando emuladores como BlueStacks, MuMu y Google Play Games. Guías de configuración y soporte para controles.",
+      "metaTitle": "The Division Resurgence en PC - Configuración de BlueStacks, MuMu y Emuladores",
+      "metaDescription": "Juega The Division Resurgence en PC con BlueStacks, MuMu Player o Google Play Games. Configuración paso a paso del emulador, soporte para controles y consejos de rendimiento.",
+      "categoryLabel": "PC Y EMULADORES",
+      "whatIs": "¿Qué es la Emulación en PC?",
+      "whatIsDescription": "La emulación en PC te permite ejecutar The Division Resurgence en computadoras de escritorio usando herramientas como BlueStacks, MuMu Player o Google Play Games. Obtén pantallas más grandes, soporte para teclado y controles, y un rendimiento más fluido.",
+      "why": "¿Por qué jugar en PC?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Experiencia en Pantalla Grande",
+        "step1Description": "Disfruta de The Division Resurgence en un monitor completo con visibilidad mejorada",
+        "step2Title": "Soporte para Controles y Teclado",
+        "step2Description": "Usa un mando o teclado para apuntar y moverte con mayor precisión",
+        "step3Title": "Mejor Rendimiento",
+        "step3Description": "Reduce el lag y las caídas de frames en comparación con jugar en hardware móvil"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de PC"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "download": {
+      "title": "Guía de descarga de The Division Resurgence",
+      "description": "Cómo descargar The Division Resurgence en iOS, Android, Google Play y App Store. Guía de APK, idiomas compatibles y pasos de instalación.",
+      "metaTitle": "Descarga de The Division Resurgence - Guía de iOS, Android y APK",
+      "metaDescription": "Descarga The Division Resurgence en iOS a través de la App Store o en Android mediante Google Play. Encuentra opciones de APK, idiomas compatibles y pasos de instalación.",
+      "categoryLabel": "DESCARGA",
+      "whatIs": "¿Cómo descargar?",
+      "whatIsDescription": "The Division Resurgence se puede descargar gratis en iOS (App Store) y Android (Google Play). Disponible globalmente a partir del 31 de marzo de 2026, con opciones de APK para regiones no compatibles.",
+      "why": "¿Por qué leer guías de descarga?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Encuentra la tienda correcta",
+        "step1Description": "Obtén el enlace oficial de descarga de la App Store de iOS o Google Play de Android",
+        "step2Title": "APK para regiones no compatibles",
+        "step2Description": "Aprende a instalar mediante APK si tu región tiene acceso restringido",
+        "step3Title": "Verifica los idiomas compatibles",
+        "step3Description": "Confirma que tu idioma sea compatible antes de descargar y configurar"
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "all": "Todas las guías de descarga"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "codes": {
+      "title": "Códigos de The Division Resurgence",
+      "description": "Últimos códigos vigentes para The Division Resurgence. Encuentra todos los códigos promocionales activos y los pasos para canjear recompensas gratuitas en el juego.",
+      "metaTitle": "Códigos de The Division Resurgence - Códigos promocionales activos y pasos para canjear",
+      "metaDescription": "Encuentra códigos activos de The Division Resurgence y aprende cómo canjearlos por recompensas gratuitas en el juego. Actualizado con todos los códigos promocionales conocidos.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Códigos promocionales lanzados por Ubisoft para The Division Resurgence que otorgan recompensas gratuitas en el juego. Generalmente se distribuyen durante eventos especiales, hitos y actualizaciones del juego.",
+      "why": "¿Por qué usar códigos?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Obtén recompensas gratuitas",
+        "step1Description": "Canjea códigos por objetos y recursos gratuitos en el juego sin gastar dinero real",
+        "step2Title": "Mantente adelante",
+        "step2Description": "Reclama todos los códigos disponibles para que tu progresión avance más rápido",
+        "step3Title": "Bonificaciones de eventos",
+        "step3Description": "Busca códigos de eventos especiales lanzados durante las actualizaciones e hitos del juego"
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "all": "Todos los códigos"
+    },
+    "classes": {
+      "title": "Clases y Specialization de The Division Resurgence",
+      "description": "Guía completa de cada clase y Specialization en The Division Resurgence. La mejor clase para principiantes, Field Medic, Bulwark, Demolitionist y más.",
+      "metaTitle": "Clases de The Division Resurgence - Guía de las mejores Specialization y habilidades",
+      "metaDescription": "Explicación de todas las clases y Specialization de The Division Resurgence. Conoce la mejor clase para jugar en solitario, cooperativo y Dark Zone con desglose de habilidades.",
+      "categoryLabel": "CLASES",
+      "whatIs": "¿Qué son las clases?",
+      "whatIsDescription": "The Division Resurgence cuenta con cinco Specialization — Bulwark, Demolitionist, Vanguard, Field Medic y Tech Operator — cada una con habilidades y roles únicos para el juego en solitario y cooperativo.",
+      "why": "¿Por qué elegir la clase correcta?",
+      "whySteps": {
+        "step1Title": "Se adapta a tu estilo de juego",
+        "step1Description": "Elige una Specialization que se ajuste a tu rol preferido: tanque, daño, apoyo o tecnología",
+        "step2Title": "Optimiza tus habilidades",
+        "step2Description": "Comprende las habilidades de cada Specialization para crear el equipamiento más efectivo",
+        "step3Title": "Coordina en cooperativo",
+        "step3Description": "Elige la clase adecuada para complementar a tu escuadrón en el modo cooperativo y en la Dark Zone"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las clases"
     },
     "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
+      "title": "Soporte y comunidad de The Division Resurgence",
+      "description": "Ayuda y soporte para The Division Resurgence, incluyendo códigos de error, estado del servidor, comunidad de Reddit, preguntas frecuentes y enlaces sociales.",
+      "metaTitle": "Soporte de The Division Resurgence - Códigos de error, estado del servidor y preguntas frecuentes",
+      "metaDescription": "Obtén ayuda para The Division Resurgence con soluciones a códigos de error, actualizaciones del estado del servidor, enlaces a la comunidad de Reddit y preguntas frecuentes.",
+      "categoryLabel": "SOPORTE",
       "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+      "whatIsDescription": "Recursos para ayudarte a resolver problemas en The Division Resurgence, incluyendo explicaciones de códigos de error, estado del servidor en vivo, enlaces oficiales de la comunidad y preguntas frecuentes del juego.",
+      "why": "¿Por qué consultar las guías de soporte?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Soluciona errores rápido",
+        "step1Description": "Resuelve códigos de error comunes y problemas de inicio de sesión sin esperar al soporte oficial",
+        "step2Title": "Consulta el estado del servidor",
+        "step2Description": "Entérate al instante si los servidores de The Division Resurgence están caídos o en mantenimiento",
+        "step3Title": "Únete a la comunidad",
+        "step3Description": "Encuentra las comunidades activas de Reddit y Facebook para obtener consejos, actualizaciones y debates"
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "all": "Todas las guías de soporte"
+    },
+    "media": {
+      "title": "Multimedia y recursos de The Division Resurgence",
+      "description": "Logos oficiales, recursos PNG, tráileres y multimedia de The Division Resurgence. Imágenes de alta calidad y recursos de video para agentes y creadores.",
+      "metaTitle": "Multimedia de The Division Resurgence: logos oficiales, PNG y tráileres",
+      "metaDescription": "Explora el contenido multimedia oficial de The Division Resurgence, incluyendo logos, recursos PNG, tráileres e imágenes del juego de alta calidad para fans y creadores de contenido.",
+      "categoryLabel": "MULTIMEDIA",
+      "whatIs": "¿Qué es Multimedia?",
+      "whatIsDescription": "Una colección de recursos multimedia oficiales de The Division Resurgence que incluye logos del juego, imágenes PNG, arte promocional y tráileres oficiales para fans y creadores de contenido.",
+      "why": "¿Por qué usar guías multimedia?",
+      "whySteps": {
+        "step1Title": "Accede a recursos oficiales",
+        "step1Description": "Encuentra logos e imágenes oficiales de alta calidad de The Division Resurgence",
+        "step2Title": "Mira los tráileres",
+        "step2Description": "Mira el tráiler oficial de lanzamiento y los videos de resumen de jugabilidad",
+        "step3Title": "Crea contenido",
+        "step3Description": "Usa recursos multimedia oficiales para crear contenido de fans, guías y recursos para la comunidad"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Toda la multimedia"
     }
   }
 }

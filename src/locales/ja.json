@@ -1,31 +1,31 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "The Division Resurgence Wiki - ビルド、クラス、Dark Zone",
+      "description": "The Division Resurgence Wikiでは、新規エージェント向けにビルド、Specialization、Dark Zone、ミッション、勢力、装備、協力プレイガイド、モバイル版の進行のコツを解説しています。",
+      "keywords": "The Division Resurgence, ビルド, Dark Zone, Specialization, ミッション, 装備, iOS, Android",
+      "ogTitle": "The Division Resurgence Wiki - ビルド、クラス、Dark Zone",
+      "ogDescription": "The Division Resurgence Wikiでは、新規エージェント向けにビルド、Specialization、Dark Zone、ミッション、勢力、装備、協力プレイガイド、モバイル版の進行のコツを解説しています。",
+      "twitterTitle": "The Division Resurgence Wiki - ビルド、クラス、Dark Zone",
+      "twitterDescription": "The Division Resurgence Wikiでは、iOSおよびAndroidのエージェント向けにビルド、Specialization、Dark Zone、ミッション、勢力、装備、協力プレイガイドを解説しています。"
     }
   },
   "nav": {
-    "guide": "Game Guides",
-    "release": "Release",
-    "pc": "PC & Emulator",
-    "download": "Download",
-    "codes": "Codes",
-    "classes": "Classes",
-    "support": "Support",
-    "media": "Media"
+    "guide": "ゲームガイド",
+    "release": "リリース",
+    "pc": "PC・エミュレーター",
+    "download": "ダウンロード",
+    "codes": "コード",
+    "classes": "クラス",
+    "support": "サポート",
+    "media": "メディア"
   },
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
     "playNow": "Steamでプレイ",
-    "switchLanguage": "言語を切り替える",
-    "switchTheme": "テーマを切り替える",
+    "switchLanguage": "言語切替",
+    "switchTheme": "テーマ切替",
     "lightMode": "ライトモード",
     "darkMode": "ダークモード",
     "notFound": "ページが見つかりません",
@@ -35,721 +35,726 @@
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "モバイル向けタクティカル・ルートシューターRPG",
+    "title": "The Division Resurgence Wiki",
+    "description": "クライシス後のニューヨークを舞台にしたUbisoftのモバイル版ディビジョン。Specialization、Dark Zone、協力プレイ、装備ビルド、ミッション、勢力、オープンワールドの進行ガイドをチェックしましょう。",
+    "getFreeCodesCTA": "ガイドを見る",
+    "playOnSteamCTA": "iOS & Androidでプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "2026年3月31日",
+        "label": "リリース日"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "10万以上",
+        "label": "Google Play ダウンロード数"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "100以上",
+        "label": "ワールドアクティビティ"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "5",
+        "label": "Specialization"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "The Division Resurgence ゲームプレイ",
+    "description": "ニューヨーク市全域を舞台に、Specialization、Dark Zone、協力プレイミッション、オープンワールドの進行を楽しめるUbisoftのモバイル向けタクティカル・ルートシューターRPGを体験しよう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "The Division Resurgence",
+    "titleHighlight": "Wikiガイド",
+    "subtitle": "ビルド、Dark Zone、Specialization、オープンワールドの進行を極めるために必要なすべてがここに",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
+        "title": "The Division Resurgence 初心者ガイド",
+        "description": "序盤の手順、効率的な進行、主要なアクティビティ"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
+        "icon": "Download",
+        "title": "The Division Resurgence リリース日とダウンロード",
+        "description": "2026年3月31日リリース、iOSおよびAndroid"
       },
       {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
-      },
-      {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
-      },
-      {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
+        "icon": "Users",
+        "title": "The Division Resurgence Specialization",
+        "description": "Bulwark, Demolitionist, Vanguard, Field Medic"
       },
       {
         "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "The Division Resurgence 最強武器",
+        "description": "武器の種類、強化の優先順位、ダメージアップのコツ"
+      },
+      {
+        "icon": "Star",
+        "title": "The Division Resurgence 最強ビルド",
+        "description": "ソロ、協力プレイ、PvP向けのビルド構成"
+      },
+      {
+        "icon": "Hammer",
+        "title": "The Division Resurgence スキルとガジェット",
+        "description": "ガジェットキットとSpecializationアビリティ"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "The Division Resurgence Dark Zone ガイド",
+        "description": "回収、汚染、ローグの脅威"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "The Division Resurgence PvPガイド",
+        "description": "コンフリクトモード、ルール、対戦ストラテジー"
+      },
+      {
+        "icon": "Eye",
+        "title": "The Division Resurgence オープンワールドアクティビティ",
+        "description": "ニューヨーク市内の100以上のアクティビティ"
+      },
+      {
+        "icon": "Clock",
+        "title": "The Division Resurgence ストーリーとミッション",
+        "description": "キャンペーン、タイムライン、ミッション構成"
+      },
+      {
+        "icon": "Home",
+        "title": "The Division Resurgence ソロ＆協力プレイガイド",
+        "description": "プレイスタイル、チームのメリット、ソロプレイのコツ"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "The Division Resurgence クロスプレイとクロスプログレッション",
+        "description": "プラットフォームのルール、アカウント、サーバー情報"
+      },
+      {
+        "icon": "Settings",
+        "title": "The Division Resurgence コントローラー対応",
+        "description": "タッチ操作、PS5、Xbox、Backboneのオプション"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "The Division Resurgence バトルパスとシーズン",
+        "description": "シーズン報酬、XPパス、エキゾチックの解放"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "The Division Resurgence エキゾチック武器",
+        "description": "Warlord AR、バトルパスのエキゾチック、入手方法"
+      },
+      {
+        "icon": "Package",
+        "title": "The Division Resurgence 勢力",
+        "description": "フリーメン、ライカーズ、クリーナーズ、レイダース"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
+    "divisionResurgenceBeginnerGuide": {
+      "title": "The Division Resurgence 初心者ガイド",
       "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
+      "intro": "The Division Resurgence の序盤は、刷新されたチュートリアル、早期の Specialization テスト、オープンワールドの探索、そして着実な装備の成長を中心に構成されています。最善のスタート方法は、オンボーディングを完了し、自分のプレイスタイルに合ったロールを試し、オープンワールドを活用して定期的にアップグレードを行い、特定の装備に早くから固執しすぎずにゲームの進行システムに従うことです。",
       "steps": [
         {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
+          "title": "オープニングチュートリアルと最初の重要ミッションを完了する",
+          "description": "ゲームは、移動、射撃、カバーの使用、アビリティを学ぶ、刷新された序盤の流れから始まります。ここで The Division Resurgence のその後の進行の基盤となる構造が解放されます。"
         },
         {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
+          "title": "早い段階で複数の Specialization を試す",
+          "description": "チュートリアルの流れの中で、一人で出発する前に各 Specialization をテストできます。これにより、The Division Resurgence での自分のプレイスタイルに合ったロールを選ぶことができます。"
         },
         {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
+          "title": "オープンワールドを活用して着実にアップグレードする",
+          "description": "マンハッタンを探索し、パトロール戦闘、勢力レイド、市民の救出、エネルギーや水の復旧タスク、その他のワールドエンカウントを巡ることで、装備やクラフト資源を入手しましょう。"
         },
         {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
+          "title": "物資輸送と人質救出を優先する",
+          "description": "物資輸送は居住地にとって重要な資材をもたらし、人質救出は市民を解放して味方の勢力を強めます。これらのアクティビティは簡単で繰り返し可能であり、序盤の進行に直結しています。"
+        },
+        {
+          "title": "装備をアップグレードするが、一つのアイテムに固執しすぎない",
+          "description": "武器や装備は、ミッションで獲得した素材を使って早い段階からアップグレードできます。アップグレードによってお気に入りの武器を使い続けることができますが、最終的には新しいドロップアイテムが古い装備に取って代わります。"
+        },
+        {
+          "title": "推奨パワースコアと推奨ビルドに従う",
+          "description": "The Division Resurgence には、アクティビティやミッションの推奨パワースコアに加え、キャラクターや装備をより速く成長させるためのビルドガイドが用意されています。"
+        },
+        {
+          "title": "アクティビティ解放後はファストトラベルを活用する",
+          "description": "解放されたオープンワールドのアクティビティには、マップから直接ファストトラベルできます。これにより待ち時間が短縮され、ファーミング、デイリールーチン、進行ループがより効率的になります。"
+        },
+        {
+          "title": "難易度の高いエンドゲームモードは後回しにする",
+          "description": "レジェンダリー・インスタンス・チャレンジ、Dark Zone セッション、および高難易度コンテンツは、より強力なビルド向けです。まずは基礎を固め、準備が整ってからより困難なコンテンツに挑戦しましょう。"
         }
       ],
       "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
+        "Specialization はミッションの合間に切り替えられるので、気軽に試してみましょう。",
+        "オープンワールドのアクティビティでは、装備、弾薬、クラフト資源を定期的に入手できます。",
+        "推奨パワースコアは、早すぎる段階でコンテンツに挑むのを避けるのに役立ちます。",
+        "Dark Zone やレジェンダリー・インスタンスは、より強力な装備とロールの相乗効果を持つプレイヤー向けに設計されています。"
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
+    "divisionResurgenceReleaseDateAndDownload": {
+      "title": "The Division Resurgence の発売日とダウンロード",
       "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
+      "intro": "The Division Resurgence はモバイルで配信中であり、公式アプリストアからダウンロード可能です。Ubisoft は iOS および Android 向けに3月31日のリリースを発表しました。アジアとオセアニアで最初に開始され、同日中に世界の他の地域でも開始されます。",
       "cards": [
         {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
+          "name": "グローバルローンチ日：2026年3月31日",
+          "description": "アジアとオセアニアは CEST 午前9時に最初に開始され、同日の CEST 午後1時からグローバルアクセスが開始されました。"
         },
         {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
+          "name": "プラットフォーム：iOS および Android",
+          "description": "ゲームは Apple App Store と Google Play で入手可能です。両方のストアページで、世界中で配信およびダウンロード可能であることが確認されています。"
         },
         {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
+          "name": "価格：基本プレイ無料",
+          "description": "The Division Resurgence は iOS と Android の両方で無料でダウンロードしてプレイでき、オプションでアプリ内課金があります。"
         },
         {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
+          "name": "App Store のサイズ：3.9 GB",
+          "description": "Apple は iPhone および iPad アプリのサイズを 3.9 GB と記載しています。iOS 14.0 以降、および A12 Bionic 以降のチップが必要です。"
+        },
+        {
+          "name": "Google Play のダウンロード数：10万以上",
+          "description": "Google Play のリストでは、10万件以上のダウンロードと、2万件以上のレビューから4.5星の評価を得ていることが示されています。"
+        },
+        {
+          "name": "iOS でコントローラーをサポート",
+          "description": "App Store のページでは、iOS プレイヤー向けに The Division Resurgence がコントローラー対応であることが明記されています。"
         }
       ],
       "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
+        "iOS App Store",
+        "Google Play",
+        "Free to Play",
+        "Controller Supported"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
+    "divisionResurgenceSpecializations": {
+      "title": "The Division Resurgence の Specialization",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
+      "intro": "The Division Resurgence の Specialization は、チーム機能、ユニークなガジェット、強力なアルティメットアビリティを中心に構築されたロールベースのパッケージです。後でロールを切り替えることができるため、このシステムは永続的な固定ではなく、試行錯誤を推奨しています。",
       "items": [
         {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
+          "name": "Bulwark",
+          "type": "タンク",
+          "description": "プレッシャーを吸収し、スペースを確保したいプレイヤー向けに構築されています。Ubisoft は、チームがタンク役を必要とする際の定番の選択肢として挙げています。生存能力、コントロール、グループユーティリティを好むプレイヤーに最適です。"
         },
         {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
+          "name": "Demolitionist",
+          "type": "ダメージディーラー",
+          "description": "爆発的なグレネードランチャー、爆発的な追尾マイン、自動タレットを使用して、持続的な攻撃プレッシャーを与えます。純粋なダメージ出力と素早い敵の掃討を求めるプレイヤーに最適です。"
         },
         {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
+          "name": "Vanguard",
+          "type": "タクティカルアサルト",
+          "description": "防御力と火力を強化するスマートカバーを使用するように刷新されました。スキャニングパルスはターゲットをマークしてダメージを増加させ、タクティカルリンクは一時的なダメージブーストを付与します。戦術的なポジショニングと連携したプッシュに最適です。"
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
+          "name": "Field Medic",
+          "type": "サポート",
+          "description": "チームメイトを回復し、部隊をより長く生存させることができます。もう一つのフォーカスでは、腐食性の毒ダメージとエリア拒否のロールに変化します。協力プレイのユーティリティやサポートリーダーシップを楽しむプレイヤーに最適です。"
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
+          "name": "Tech Operator",
+          "type": "テクノロジー",
+          "description": "ガジェット主導のユーティリティに焦点を当て、チームの遭遇戦にテクニカルなツールをもたらします。テクノロジーベースの展開を通じて戦場の状況を形作りたいプレイヤーに最適です。"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
+    "divisionResurgenceBestWeapons": {
+      "title": "The Division Resurgence 最強武器",
       "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
+      "intro": "The Division Resurgenceでは、賢い武器への投資、モデル全体の武器庫（Armory）アップグレード、そして敵のアーマーに合わせたダメージタイプの適応が重要です。最強の武器選びとは、自分の役割に合い、アップグレードの過程を乗り越え、より難易度の高いコンテンツでも有用性を維持できるものを指します。",
       "solutions": [
         {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
+          "name": "ミリタリー MP5",
+          "role": "サブマシンガン",
+          "description": "Ubisoftは、ミリタリー MP5を、アップグレードする価値のある序盤のお気に入りの最も明確な例として挙げています。序盤の素早い戦闘や近距離から中距離の戦いに適しています。"
         },
         {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
+          "name": "M700",
+          "role": "マークスマンライフル",
+          "description": "Ubisoftは、同じ武器モデルのすべての個体に適用される武器庫アップグレードを説明する際、M700を強調しています。精密なプレイ、遠距離からの狙撃、慎重な高威力ショットに強力です。"
         },
         {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
+          "name": "Warlord アサルトライフル",
+          "role": "エキゾチックアサルトライフル",
+          "description": "公式ベータ資料で主要なバトルパス報酬として紹介されています。最初のセッションで手に入れる武器というよりは、進行上の目標として扱うのが最適です。"
         },
         {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
+          "name": "エクスプローシブ・グレネードランチャー",
+          "role": "シグネチャーウェポン",
+          "description": "Demolitionist Specializationに直接紐付いており、そのダメージ特性の一部となっています。Demolitionistのビルドとアグレッシブな立ち回りを組み合わせた時に最も価値を発揮します。"
         }
       ],
       "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
+        "高難易度コンテンツで最大限の効率を得るために、敵のアーマーにダメージタイプを合わせましょう。",
+        "武器庫のアップグレードは、同じ武器モデルのすべての個体に適用されます。",
+        "爆発、シュレッディング、ピアッシングのダメージタイプは、高レベルのアクティビティでより重要になります。",
+        "敵のアーマーバーは弱点を示しているため、遭遇する敵に合わせてロードアウトを調整しましょう。"
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
+    "divisionResurgenceBestBuilds": {
+      "title": "The Division Resurgence 最強ビルド",
       "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
+      "intro": "The Division Resurgenceでは、Specializationsは単一のシグネチャーウェポンではなく、プレイスタイルの役割を中心に構築されています。最も実用的なビルドは、ソロ進行、協力プレイ（Co-op）サポート、PvPプレッシャーという3つのユーザー向けパスに分類できます。",
       "cards": [
         {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
+          "name": "Vanguard プレッシャービルド",
+          "description": "ソロおよびPvE向けの実用的な万能ビルド。スマートカバー、スキャニングパルス、タクティカルリンクを使用して、強力なポジショニング、生存能力、バーストダメージを実現します。メインミッションやオープンワールドのアクティビティに最適です。"
         },
         {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
+          "name": "Field Medic サポートビルド",
+          "description": "チームを生存させるための最も安全な分隊向けパス。味方を回復したり、腐食性の毒を散布してエリアを制圧したりできます。レジェンダリー・インスタンス・チャレンジ、4人プレイコンテンツ、維持力が必要なチームに最適です。"
         },
         {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
+          "name": "Demolitionist コントロールビルド",
+          "description": "爆発的なプレッシャーとレーン制御を重視したダメージ重視のパス。グレネードランチャー、追尾マイン、自動タレットを使用します。敵が多いアクティビティやアグレッシブなグループプレイに最適です。"
         },
         {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
+          "name": "Bulwark タンクビルド",
+          "description": "プレッシャーを吸収し、困難な遭遇戦を安定させたいプレイヤー向けのチーム優先ビルド。Ubisoftは、グループにすでにヒーラーがいる場合のタンクとしての回答としてBulwarkを位置づけています。"
         }
       ],
       "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
+        "ソロ / PvE対応",
+        "Co-op最適化",
+        "PvP対応",
+        "エンドゲーム対応"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
+    "divisionResurgenceSkillsAndGadgets": {
+      "title": "The Division Resurgence スキルとガジェット",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
+      "intro": "The Division Resurgenceにおける戦闘のリズムは、役割に基づいたガジェットキットによって生み出されます。各Specializationによって、戦い方、味方のサポート方法、スペースの制御方法が変わります。どのガジェットがどのSpecializationに属しているかを理解することが、効果的なロードアウトを構築する鍵となります。",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
+          "name": "Vanguard",
+          "type": "前線タクティカル",
+          "description": "スマートカバーは、カバーからの防御力と火力を強化します。スキャニングパルスは近くのターゲットをマークし、与えるダメージを増加させます。タクティカルリンクは、一時的なダメージブーストとオートエイムサポートを付与します。カバー主体の銃撃戦やチームでの押し込みに最適です。"
         },
         {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
+          "name": "Demolitionist",
+          "type": "爆発ダメージ",
+          "description": "グレネードランチャーは強力な爆発バーストを繰り出します。追尾マインは敵グループにプレッシャーを与えます。タレットは持続的な遠距離サポートを追加します。クラウドコントロール、遠距離へのプレッシャー、陣取った敵の打破に最適です。"
         },
         {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
+          "name": "Field Medic",
+          "type": "回復と制御",
+          "description": "回復ツールはチームメイトをより長く生存させます。サポート重視の構成は分隊の維持力を強化します。別の構成では持続的な毒を散布し、広範囲を制御します。4人ミッションや長期戦に最適です。"
         },
         {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
+          "name": "スキル Mod と OS プロトコル",
+          "type": "ビルドカスタマイズ",
+          "description": "スキル Mod はスキルの使用方法を変更します。OS プロトコルはステータスボーナスや、Specializationのゲームプレイを変化させる特別なタレントを追加します。プレイスタイルの微調整やSpecializationの個性を広げるのに最適です。"
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
+    "divisionResurgenceDarkZoneGuide": {
+      "title": "The Division Resurgence Dark Zone ガイド",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
+      "intro": "Dark Zoneは、The Division Resurgenceを象徴するハイリスクな回収アクティビティです。このループには、汚染された戦利品、時間制限のプレッシャー、敵対的なNPC、そして他のプレイヤーが裏切る脅威が組み合わさっています。",
       "creatures": [
         {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
+          "name": "セッションベースのランに参戦",
+          "role": "ステップ 1",
+          "description": "Dark Zoneはマッチメイクされたセッションとして始まります。ソロまたは最大3人の他のプレイヤーと入場でき、全参加者が同時にアクティビティを開始します。"
         },
         {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
+          "name": "汚染プレッシャーの管理",
+          "role": "ステップ 2",
+          "description": "Dark Zoneではマスクが必須ですが、フィルターの保護時間は限られています。回収せずに長く滞在しすぎると、感染が急速に進行し、ランの危険度が大幅に増します。"
         },
         {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
+          "name": "汚染された戦利品の収集",
+          "role": "ステップ 3",
+          "description": "敵、クレート、プレイヤーキルから汚染された戦利品がドロップすることがあります。この戦利品はすぐには装備できず、回収して除染した後に初めて安全に使用できるようになります。"
         },
         {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
+          "name": "回収地点でヘリを呼ぶ",
+          "role": "ステップ 4",
+          "description": "The Division Resurgenceで獲得品を確保するには、回収地点へ行き、信号弾を撃ちます。SHDヘリが戦利品用のロープと、あなた自身の回収用のロープを降ろしてくれます。"
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
+          "name": "ローグへの警戒とルート計画",
+          "role": "ステップ 5",
+          "description": "他のプレイヤーはあなたを殺してドロップした戦利品を奪うことができ、味方でさえ裏切る可能性があります。ソロプレイヤーがフルスクワッドの乱戦を避けられるよう、ソロキューのDark Zoneも追加されました。"
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
+    "divisionResurgencePvPGuide": {
+      "title": "The Division Resurgence PvPガイド",
       "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
+      "intro": "The Division ResurgenceのPvPは、構造化されたコンフリクトマッチと、より危険なプレイヤーの脅威が渦巻くDark Zoneに分かれています。新規プレイヤーは主に、目標達成型のプレイ、ステータスの正規化、そしてビルドが重要となる場面を理解する必要があります。",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
+          "name": "コンフリクト・ドミネーション",
+          "type": "構造化された4v4",
+          "description": "4人編成の2チームが目標を占拠・保持します。保持している目標ごとに1秒間に1ポイント加算され、先に100ポイントに達したチームが勝利します。プレイヤーのパワーは正規化されますが、武器タレントのボーナスは維持されます。"
         },
         {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
+          "name": "Dark Zone PvPvE",
+          "type": "回収ベース",
+          "description": "敵と戦い、汚染された戦利品を収集します。汚染のプレッシャーに飲み込まれる前に回収してください。他のプレイヤーが攻撃してドロップした戦利品を奪うことも可能です。ローグ行為はこのモードのリスクとリターンの設計の一部です。"
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
+          "name": "ビルドから引き継がれる要素",
+          "type": "ビルドの関連性",
+          "description": "コンフリクト・ドミネーションでは、ステータスの正規化により装備格差のプレッシャーが軽減されますが、武器タレントは依然として重要です。Vanguardやサポートツールは、正規化されたPvPにおいても戦況を左右する力を持っています。"
         }
       ],
       "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
+        "コンフリクトではまず目標達成を優先する",
+        "Dark ZoneをアリーナPvPのように扱わない",
+        "正規化されたモードでも武器タレントは重要",
+        "ソロプレイ用のソロキューDark Zoneが利用可能"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
+    "divisionResurgenceOpenWorldActivities": {
+      "title": "The Division Resurgence オープンワールドアクティビティ",
       "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
+      "intro": "Resurgenceはミッションだけで構成されているわけではありません。オープンワールドは、繰り返し可能なアクティビティ、リソース収集、動的な勢力との遭遇など、主要な進行レイヤーとなっています。公式資料では、共有されたニューヨーク市全体で100以上のアクティビティがあることが確認されています。",
       "sections": [
         {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
+          "name": "敵のパトロール",
+          "description": "街を探索中に徘徊する敵グループを阻止できます。素早い戦闘、安定した戦利品獲得、移動ルートの有効活用に適しています。大きな目標の合間の手軽なファーミングとして活用しましょう。"
         },
         {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
+          "name": "重要拠点への敵の襲撃",
+          "description": "勢力が街の重要拠点を襲撃しようとし、突発的な戦闘イベントが発生します。これらの戦闘は世界に活気を与え、探索を中断して交戦する強い動機となります。"
         },
         {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
+          "name": "インフラ復旧",
+          "description": "エネルギーや水などのサービスへのアクセスを復旧させるアクティビティもあります。これらの目標は、単に敵を倒すだけでなく、街を安定させるというThe Division Resurgenceのテーマを強調しています。"
         },
         {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
+          "name": "人質救出",
+          "description": "市民が人質に取られることがあり、介入が必要です。Ubisoftは、人質救出をThe Division Resurgenceで繰り返し発生するアクティビティの一つとして具体的に挙げています。人質エリアに突入する前に、まずは周囲の安全を確保しましょう。"
+        },
+        {
+          "name": "補給品奪取",
+          "description": "初期のテスト詳細では、補給品奪取がファンに人気のオープンワールドアクティビティとして挙げられていました。実用的な進行に結びついた、繰り返し可能なワールドコンテンツの代表例です。"
+        },
+        {
+          "name": "リソースおよび戦利品収集",
+          "description": "オープンワールドの探索では、定期的に装備、弾薬、クラフト素材が手に入ります。The Division Resurgenceでは、探索が戦利品のアップグレード、研究、クラフトに直結しています。"
         }
       ],
       "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
+        "100以上のワールドアクティビティ",
+        "ファストトラベルの解放",
+        "探索による装備獲得",
+        "繰り返し可能なファーミングループ"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
+    "divisionResurgenceStoryAndMissions": {
+      "title": "The Division Resurgence ストーリーとミッション",
       "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
+      "intro": "Ubisoftは、The Division Resurgenceを新しいヴィラン、勢力、キャラクターが登場する独立したキャンペーンとして位置づけています。公式のローンチ情報によると、ストーリーは『ディビジョン』と『ディビジョン2』の間の出来事として描かれます。",
       "priorities": [
         {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
+          "name": "ディビジョン・ユニバースの新しい正史ストーリー",
+          "priority": "前提",
+          "description": "The Division Resurgenceは、独自のストーリーラインを持つシリーズの公式な拡張作品です。新しいヴィランや勢力が登場する、基本プレイ無料のモバイル向け三人称視点RPGシューターです。"
         },
         {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
+          "name": "『ディビジョン』と『ディビジョン2』の間の物語",
+          "priority": "タイムライン",
+          "description": "キャンペーンは初期の崩壊後、かつ『ディビジョン2』より前の時間軸で展開されます。第1波SHDエージェントの視点から出来事が描かれ、ニューヨークの状況に関するさらなる背景が明かされます。"
         },
         {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
+          "name": "キャンペーン構造：ストーリーミッションとオープンワールドの進行",
+          "priority": "構造",
+          "description": "プレイヤーは専用のキャンペーンを進めながら、オープンワールドアクティビティを利用してキャラクターや装備を強化します。ブートキャンプ形式の導入に続き、オープンワールドのタスクに支えられたメインストーリーミッションが展開されます。"
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
+          "name": "かつての宿敵と新しい敵グループの登場",
+          "priority": "勢力",
+          "description": "再登場する勢力には、レイダース、ライカーズ、クリーナーズが含まれます。フリーメンは、街全体で攻撃を激化させている、スカベンジャーを中心とした新しい脅威として描かれています。"
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
+    "divisionResurgenceSoloAndCoopGuide": {
+      "title": "The Division Resurgence ソロ＆協力プレイガイド",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
+      "intro": "The Division Resurgenceはソロプレイヤーをサポートするように作られていますが、協力プレイ（Co-op）ではクリア速度が上がり、蘇生が容易になり、高難易度コンテンツへの柔軟性が高まります。最大3人のチームメイトとスクワッドを組み、4人グループでプレイ可能です。",
       "groups": [
         {
-          "name": "探索",
+          "name": "ストーリーミッション",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
+              "title": "ソロ",
+              "description": "ソロで完全にプレイ可能で、操作方法、ペース、ミッションの流れを学ぶのに適しています。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
+              "title": "協力プレイ",
+              "description": "最大3人のチームメイトとプレイ可能で、戦闘のプレッシャーを管理しやすくなります。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
+              "title": "最適",
+              "description": "初めて学ぶならソロ、スムーズなクリアと火力の共有なら協力プレイが最適です。"
             }
           ]
         },
         {
-          "name": "クラフトと召喚",
+          "name": "オープンワールドアクティビティ",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
+              "title": "ソロ",
+              "description": "短時間のセッション、探索、自分のペースでの素早いタスク完了に効率的です。"
             },
             {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
+              "title": "協力プレイ",
+              "description": "イベントの連続実行、蘇生、突然の多方向からの戦闘への対処に適しています。"
             },
             {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
-            },
-            {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
+              "title": "最適",
+              "description": "リラックスしたファーミングならソロ、長時間のファーミングループとダウンタイムの短縮なら協力プレイが最適です。"
             }
           ]
         },
         {
-          "name": "移動とユーティリティ",
+          "name": "Dark Zone",
           "achievements": [
             {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
+              "title": "ソロ",
+              "description": "一人でもプレイ可能ですが、他のプレイヤーとNPCの脅威が重なるため、リスクは非常に高くなります。"
             },
             {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
+              "title": "協力プレイ",
+              "description": "チームを組むことで、回収時の安全性が高まり、カバー範囲が広がり、より安全に戦利品を持ち帰れます。"
             },
             {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
-            },
-            {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
+              "title": "最適",
+              "description": "ハイリスクなソロPvPvEプレイを特に好まない限り、協力プレイが最適です。"
             }
           ]
         },
         {
-          "name": "戦闘とクリーチャー",
+          "name": "PvPモード",
           "achievements": [
             {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
+              "title": "ソロ",
+              "description": "自身のテクニックのテストや、マップと交戦ポイントの学習に適しています。"
             },
             {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
+              "title": "協力プレイ",
+              "description": "連携の取れたグループなら、レーンのカバー、目標達成、ロールの相乗効果をより効果的に発揮できます。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
+              "title": "最適",
+              "description": "練習ならソロ、より組織的なチームパフォーマンスを求めるなら協力プレイが最適です。"
             }
           ]
         },
         {
-          "name": "成長と農業",
+          "name": "進行ペース",
           "achievements": [
             {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
+              "title": "ソロ",
+              "description": "着実かつ完全に実行可能で、特にThe Division Resurgenceでキャンペーンを優先するプレイヤーに適しています。"
             },
             {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
+              "title": "協力プレイ",
+              "description": "戦闘が早く終わり、ミスによるペナルティも少ないため、実際には協力プレイの方が早いことが多いです。"
             },
             {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
+              "title": "最適",
+              "description": "マイペースに進めるならソロ、効率と素早い装備の進行を求めるなら協力プレイが最適です。"
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
+    "divisionResurgenceCrossplayAndCrossProgression": {
+      "title": "The Division Resurgenceのクロスプレイとクロスプログレッション",
       "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
+      "intro": "The Division Resurgenceのアカウント設定において、デバイス間で同じ進行状況を共有できますが、キャラクターデータはそのキャラクターが作成されたサーバーに紐付けられたままとなります。",
       "faqs": [
         {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
+          "question": "The Division Resurgenceはクロスプレイに対応していますか？",
+          "answer": "はい。The Division Resurgenceは完全なクロスプラットフォーム対応であり、同じサーバー上にいれば、異なる対応モバイルプラットフォームのプレイヤー同士で一緒にプレイできます。"
         },
         {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
+          "question": "The Division Resurgenceでは進行状況はプラットフォーム間で共有されますか？",
+          "answer": "はい。プラットフォーム間で同じUbisoft Connectアカウントを使用すれば、進行状況が保存・共有され、進行状況を失うことなくデバイスを切り替えてプレイできます。"
         },
         {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
+          "question": "アプリ内課金はデバイス間で共有されますか？",
+          "answer": "はい。同じUbisoft Connectアカウントを使用している場合、購入内容はプラットフォーム間で共有されます。ただし、購入内容は購入したサーバーに紐付けられたままとなります。"
         },
         {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
+          "question": "The Division Resurgenceでサーバーを自由に変更できますか？",
+          "answer": "サーバーはいつでも変更可能ですが、キャラクターとその進行状況は元のサーバーにリンクされたままとなります。サーバーを変更してもキャラクターの進行状況は移動しません。"
         },
         {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
+          "question": "キャラクター間で戦利品、スキン、通貨を移動できますか？",
+          "answer": "いいえ。1つのキャラクターでアンロックした戦利品、装備、スキン、通貨はそのキャラクターに紐付けられており、別のキャラクターに転送することはできません。"
         },
         {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
-        },
-        {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+          "question": "以前のテストの進行状況は正式リリースに引き継がれますか？",
+          "answer": "以前のテストの進行状況は正式リリースには引き継がれません。一部の外部報酬やリンク報酬は受け取り可能で、受け取り後に最初にログインしたキャラクターに割り当てられます。"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
+    "divisionResurgenceControllerSupport": {
+      "title": "The Division Resurgenceのコントローラーサポート",
+      "displayType": "comparisonCards",
+      "intro": "The Division Resurgenceは携帯端末でのプレイを第一に考えて構築されていますが、複数の入力方法をサポートしています。Ubisoftの公式アップデートにより、最適化されたタッチ操作、カスタマイズ可能なレイアウトに加え、専用のコントローラーバトルインターフェースを備えたPS5、Xbox、Backboneコントローラーへの対応が確認されています。",
+      "items": [
         {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
+          "control_method": "最適化されたタッチ操作",
+          "support_status": "公式サポート",
+          "best_for": "デフォルトのモバイルプレイ、短時間のセッション、追加ハードウェアなし",
+          "details": "Ubisoftによると、デフォルトのタッチ操作はモバイルプレイ用に完全に最適化されています。プレイヤーはボタン配置やカメラ感度をカスタマイズできます。",
+          "setup_notes": "すべてのモバイルデバイスでそのまま使用可能。"
         },
         {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
+          "control_method": "PS5コントローラー",
+          "support_status": "公式サポート",
+          "best_for": "コンソールスタイルのエイムと長時間のセッション",
+          "details": "Ubisoftは、使い慣れた入力とより快適な人間工学を備えた、精度重視のオプションとしてPlayStation 5コントローラーのサポートを認めています。",
+          "setup_notes": "コントローラーをスマートフォンやタブレットにペアリングし、ゲーム内のレイアウトと感度設定を調整してください。"
         },
         {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
+          "control_method": "Xboxコントローラー",
+          "support_status": "公式サポート",
+          "best_for": "PvEおよびPvPでの安定したシューター操作",
+          "details": "UbisoftはXboxコントローラーのサポートを認めており、PS5コントローラーでのプレイと同様の精度と快適さのメリットを提供すると説明しています。",
+          "setup_notes": "ゲームの起動前またはプレイ中に、コントローラーをモバイルデバイスにペアリングしてください。"
         },
         {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
+          "control_method": "Backboneコントローラー",
+          "support_status": "公式サポート",
+          "best_for": "携帯性に優れたスマートフォン優先のセットアップ",
+          "details": "Ubisoftは、スマートフォンをより本格的なタクティカルシューターのセットアップに変える方法として、Backboneのサポートを明示しています。",
+          "setup_notes": "コントローラーをスマートフォンに取り付け、設定で操作を微調整してください。"
         },
         {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
+          "control_method": "コントローラー専用バトルインターフェース",
+          "support_status": "ベータアップデートで公式に追加",
+          "best_for": "タッチ操作から切り替えるプレイヤー",
+          "details": "地域ベータのパッチノートでは、最適化されたコントローラー操作ロジックとトリガー適応を備えた、コントローラー専用の新しいバトルインターフェースが追加されたことが確認されています。",
+          "setup_notes": "タッチ操作ではなく、サポートされているコントローラーを使用する場合に関連します。"
+        },
+        {
+          "control_method": "ハイブリッド入力",
+          "support_status": "公式に承認済み",
+          "best_for": "セッションごとに柔軟性を求めるプレイヤー",
+          "details": "Ubisoftは、プレイヤーの好みに応じて、タッチ、コントローラー、またはハイブリッドなアプローチをサポートしていると説明しています。",
+          "setup_notes": "設定メニューを使用して、好みの入力スタイルに合わせて感度やレイアウトを調整してください。"
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
+    "divisionResurgenceBattlePassAndSeasons": {
+      "title": "The Division Resurgenceのバトルパスとシーズン",
       "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
+      "intro": "The Division Resurgenceの長期エージェントにとって、バトルパスはミッション、アクティビティ、そして段階的に豪華になる報酬というシーズンごとのコンテンツループに組み込まれています。Ubisoftは、課金ではなくゲームプレイを通じてXPを獲得する、無料とプレミアム両方の参加パスがあることを認めています。",
+      "milestones": [
         {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
+          "date": "2023年6月",
+          "label": "地域ベータロードマップ：シーズン構造の導入",
+          "details": "Ubisoftは、新しいアクティビティ、ミッション、武器、スキンなどを含むシーズンごとのコンテンツ展開を正式に説明しました。無料とプレミアム両方のバトルパスへの参加が確認されました。"
         },
         {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
+          "date": "2023年6月～7月",
+          "label": "地域ベータ フェーズ1",
+          "details": "最初のライブサービステストが開始され、進行状況、ミッション、収益化システム、およびバトルパス構造の初期テストの場となりました。"
         },
         {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+          "date": "2023年8月～9月",
+          "label": "地域ベータ フェーズ2",
+          "details": "第2段階のベータフェーズでもシーズン制のテストアプローチが継続されました。Ubisoftが次のステージに向けてバランス調整を行えるよう、プレイヤーの進行状況はリセットされました。"
+        },
+        {
+          "date": "2023年11月",
+          "label": "バトルパス報酬の拡張",
+          "details": "Ubisoftはバトルパスの報酬をより魅力的なものにし、地域ベータのバトルパスにおける新しいエキゾチック報酬としてアサルトライフル「ウォーロード」を強調しました。"
+        },
+        {
+          "date": "2025年11月～12月",
+          "label": "新しい地域ベータ：アメリカ＆ブラジル",
+          "details": "開発者アップデートにより別の地域ベータが発表され、世界リリース前に段階的なライブテストを継続する方針が示されました。"
+        },
+        {
+          "date": "2026年3月31日",
+          "label": "世界同時リリース",
+          "details": "The Division ResurgenceがiOSおよびAndroidで世界同時にリリースされました。ストーリー、世界、チャレンジを拡張する定期的な追加コンテンツを備えたライブタイトルとして登場しました。"
+        },
+        {
+          "date": "継続中",
+          "label": "シーズン進行ループ",
+          "details": "エージェントはミッションやアクティビティをプレイすることでバトルパスXPを獲得します。報酬はレベルに応じて段階的にアンロックされ、アイテム、武器、素材、スキン、エキゾチック報酬などが含まれます。"
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
-      "steps": [
+    "divisionResurgenceExoticWeapons": {
+      "title": "The Division Resurgence エキゾチック武器",
+      "displayType": "cardGrid",
+      "intro": "The Division Resurgence のエキゾチック武器は、バトルパスやシーズン進行と連動しています。Ubisoft はすでに「ウォーロード・アサルトライフル」をネームド・エキゾチックとして認めており、その他のエキゾチックはミッション、アクティビティ、バトルパスの報酬トラックを通じてアンロックされます。",
+      "items": [
         {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
+          "name": "ウォーロード・アサルトライフル",
+          "category": "確認済みのエキゾチック",
+          "why_it_matters": "リージョナルベータのバトルパスを通じてアンロックされるエキゾチック武器として Ubisoft が指名。入手経路が確認されている、最も明確な公式発表済みのエキゾチック武器です。",
+          "player_takeaway": "The Division Resurgence で確実なエキゾチック獲得を目指すなら、まずはバトルパスの進行状況を確認しましょう。"
         },
         {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
+          "name": "シーズンバトルパス・エキゾチック",
+          "category": "報酬カテゴリー",
+          "why_it_matters": "Ubisoft は、バトルパスの報酬に非常に人気の高いエキゾチック武器が含まれることを認めています。エキゾチックはサイドコンテンツではなく、主要なシーズン継続要素の一部です。",
+          "player_takeaway": "シーズンをプレイすることは、The Division Resurgence における主要なエキゾチック入手経路の1つです。"
         },
         {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
+          "name": "ミッションおよびアクティビティ XP パス",
+          "category": "進行ソース",
+          "why_it_matters": "エージェントはミッションやアクティビティに参加することでバトルパス XP を獲得し、報酬レベルをアンロックします。エキゾチックへの道は日常的なゲームプレイに紐付いています。",
+          "player_takeaway": "The Division Resurgence では、定期的なミッションクリアやアクティビティの周回がエキゾチックのアンロックに繋がります。"
         },
         {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
+          "name": "密封キャッシュのリワーク",
+          "category": "サポートルートシステム",
+          "why_it_matters": "Ubisoft は、内容を改善し、プレイを通じて入手しやすくするために密封キャッシュをリワークしました。これはエンドゲームの進行をめぐる広範なルートエコシステムを支えています。",
+          "player_takeaway": "The Division Resurgence でのエキゾチック収集は、単一のメニュー項目ではなく、より広い報酬エコシステムの中に位置づけられています。"
+        }
+      ]
+    },
+    "divisionResurgenceFactions": {
+      "title": "The Division Resurgence の勢力",
+      "displayType": "factionCards",
+      "intro": "The Division Resurgence では、再登場するニューヨークの敵勢力と、本作のために作られた全く新しい「フリーメン」が混在しています。公式のローンチ情報では、レイダース、ライカーズ、クリーナーズ、そして新しいフリーメンの4つの主要な敵対グループが確認されています。",
+      "items": [
+        {
+          "name": "フリーメン",
+          "role": "シリーズ新勢力",
+          "identity": "ドルインフル発生初期に結成された、アーサー・キング率いるミッドタウン・マンハッタンの終末論者（プレッパーズ）。",
+          "combat_profile": "強力な自家製武器を使用し、有用な物資のあさりや溜め込みに執着しています。",
+          "story_hook": "Ubisoft はフリーメンを、The Division Resurgence において街中で攻撃をエスカレートさせている主要な新しい脅威として位置づけています。"
         },
         {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "name": "ライカーズ",
+          "role": "再登場するニューヨークの勢力",
+          "identity": "ライカーズ島刑務所からの脱獄囚で、ディビジョンの伝承から引き継がれた強い犯罪者的アイデンティティを持っています。",
+          "combat_profile": "危機の最中にニューヨークの支配権を争う、暴力的なストリートレベルの勢力。",
+          "story_hook": "彼らはシリーズでおなじみの敵対グループの1つとして再登場し、The Division Resurgence で縄張りを争います。"
+        },
+        {
+          "name": "クリーナーズ",
+          "role": "再登場するニューヨークの勢力",
+          "identity": "ウイルスは焼き払うことでしか止められないと信じている元清掃作業員。",
+          "combat_profile": "攻撃的な火炎ベースの戦術とイデオロギー的な残虐性で知られる、シリーズを象徴する敵の1つです。",
+          "story_hook": "The Division Resurgence の勢力ラインナップの一部として確認されており、狂信的な火使いとしての象徴的な役割を維持しています。"
+        },
+        {
+          "name": "レイダース",
+          "role": "再登場する敵対勢力",
+          "identity": "ニューヨークの支配権を争う勢力の中でも、ベテランの敵対グループ。",
+          "combat_profile": "ディビジョンエージェントが撃退しなければならない、確立された暴力グループの1つとして描かれています。",
+          "story_hook": "彼らが含まれることで、The Division Resurgence をオリジナルの都市崩壊や勢力争いへと結びつけています。"
         }
       ]
     }
@@ -757,177 +762,217 @@
   "faq": {
     "title": "よくある",
     "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "subtitle": "The Division Resurgence について知っておくべきことすべて",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "The Division Resurgence は無料でプレイできますか？",
+        "answer": "はい。The Division Resurgence は iOS および Android で無料でダウンロードしてプレイでき、オプションでアプリ内課金が利用可能です。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "The Division Resurgence はいつリリースされましたか？",
+        "answer": "The Division Resurgence は 2026年3月31日に iOS および Android 向けに全世界でリリースされました。アジアとオセアニアが最初にサービスを開始し、同日中に世界の他の地域も続きました。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "The Division Resurgence はどのプラットフォームで利用できますか？",
+        "answer": "The Division Resurgence は iOS および Android で利用可能です。Apple デバイスでは A12 Bionic チップを搭載した iOS 14.0 以降が必要です。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "The Division Resurgence はクロスプレイに対応していますか？",
+        "answer": "はい。The Division Resurgence は完全にクロスプラットフォームに対応しています。同じサーバー上にいれば、iOS と Android のプレイヤーが一緒にプレイできます。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
+        "question": "The Division Resurgence には Specialization がいくつありますか？",
+        "answer": "The Division Resurgence には5つの Specialization があります：Bulwark（タンク）、Demolitionist（ダメージ）、Vanguard（タクティカル）、Field Medic（サポート）、および Tech Operator（テクノロジー）。"
       },
       {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "The Division Resurgence の Dark Zone とは何ですか？",
+        "answer": "Dark Zone は The Division Resurgence のハイリスクな回収アクティビティです。プレイヤーは汚染された戦利品を収集し、NPC の脅威に立ち向かい、回収前に他のプレイヤーに略奪されるリスクを負います。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "The Division Resurgence をプレイする準備はできましたか？",
+    "description": "Reddit の Division Resurgence コミュニティに参加して、ガイド、アップデート、エージェント同士の議論をチェックしましょう！",
+    "joinCommunity": "Reddit コミュニティに参加する",
+    "joinGame": "iOS & Android でプレイする"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "The Division Resurgence Wiki",
+    "description": "The Division Resurgenceのビルド、Specialization、Dark Zone、ミッション、ファクション、モバイル進行ガイドに関する完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "legal": "法務",
+    "discord": "Redditコミュニティ",
+    "twitter": "r/thedivision",
+    "steamCommunity": "Google Play",
+    "steamStore": "App Store",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 The Division Resurgence Wiki. UbisoftまたはThe Division Resurgenceとは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
+    "guide": {
+      "title": "The Division Resurgence ゲームガイド",
+      "description": "初心者向けの基本から上級エージェント戦略まで、完全なゲームプレイガイド。Specialization、Dark Zone、クラフト、オープンワールドの戦術をマスターしましょう。",
+      "metaTitle": "The Division Resurgence ゲームガイド - 初心者から上級者向け戦略",
+      "metaDescription": "iOSおよびAndroid向けのThe Division Resurgenceの完全なゲームガイド。初心者向けのヒント、Dark Zone、クラフト、クラン、上級エージェント戦術を網羅しています。",
       "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+      "whatIs": "ゲームガイドとは？",
+      "whatIsDescription": "The Division Resurgenceのゲームプレイメカニクス、Specializationビルド、Dark Zone戦略、クラフトシステム、進行のヒントを網羅した包括的なガイド。最初の一歩からエンドゲームまですべてを学びましょう。",
+      "why": "なぜゲームガイドを読むのか？",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "コアメカニクスを学ぶ",
+        "step1Description": "Specialization、スキル、装備を理解して、よくある初心者の間違いを避けましょう",
+        "step2Title": "迅速な進行",
+        "step2Description": "実績のあるパスに従って、より早くレベルアップし、強力なビルドをアンロックしましょう",
+        "step3Title": "戦略をマスターする",
+        "step3Description": "Dark Zone、協力プレイ、エンドゲームコンテンツ向けの上級戦術を開発しましょう"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのガイド"
+      "featured": "注目＆必須",
+      "all": "すべてのゲームガイド"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "release": {
+      "title": "The Division Resurgence リリース日＆ローンチ情報",
+      "description": "The Division Resurgenceの完全なリリーススケジュール、グローバルローンチの詳細、事前登録ボーナス、ローンチ履歴。",
+      "metaTitle": "The Division Resurgence リリース日 - グローバルローンチ＆ローンチ履歴",
+      "metaDescription": "The Division Resurgenceは2026年3月31日にiOSおよびAndroid向けにグローバルリリースされました。事前登録ボーナス、地域展開、ローンチスケジュールを確認しましょう。",
+      "categoryLabel": "リリース情報",
+      "whatIs": "リリーススケジュールとは？",
+      "whatIsDescription": "地域ベータから2026年3月31日のiOSおよびAndroid向けグローバルリリースまでのThe Division Resurgenceの開発とローンチの全履歴。",
+      "why": "なぜリリース情報を確認するのか？",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "ローンチ日を確認する",
+        "step1Description": "公式のグローバルリリース日と地域展開順序を確認しましょう",
+        "step2Title": "事前登録ボーナスを受け取る",
+        "step2Description": "グローバルローンチ前に事前登録することで得られる報酬を確認しましょう",
+        "step3Title": "ローンチ履歴を追跡する",
+        "step3Description": "ベータのスケジュールと、ゲームがライブになるまでにどのように進化してきたかを理解しましょう"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "注目＆必須",
+      "all": "すべてのリリース情報"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "pc": {
+      "title": "The Division Resurgence PC＆エミュレーターガイド",
+      "description": "BlueStacks、MuMu、Google Play Gamesなどのエミュレーターを使用してPCでThe Division Resurgenceをプレイする方法。セットアップガイドとコントローラーサポート。",
+      "metaTitle": "The Division Resurgence PC - BlueStacks、MuMu＆エミュレーターセットアップ",
+      "metaDescription": "BlueStacks、MuMu Player、またはGoogle Play Gamesを使用してPCでThe Division Resurgenceをプレイしましょう。ステップバイステップのエミュレーターセットアップ、コントローラーサポート、パフォーマンスのヒント。",
+      "categoryLabel": "PC＆エミュレーター",
+      "whatIs": "PCエミュレーションとは？",
+      "whatIsDescription": "PCエミュレーションを使用すると、BlueStacks、MuMu Player、Google Play Gamesなどのツールを使ってデスクトップでThe Division Resurgenceを実行できます。大画面、キーボードとコントローラーのサポート、よりスムーズなパフォーマンスが得られます。",
+      "why": "なぜPCでプレイするのか？",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "大画面での体験",
+        "step1Description": "視認性が向上したフルモニターでThe Division Resurgenceを楽しみましょう",
+        "step2Title": "コントローラー＆キーボードサポート",
+        "step2Description": "ゲームパッドまたはキーボードを使用して、より正確な照準と移動を行いましょう",
+        "step3Title": "より良いパフォーマンス",
+        "step3Description": "モバイルハードウェアでプレイするよりもラグやフレームレートの低下を軽減します"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "注目＆必須",
+      "all": "すべてのPCガイド"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "download": {
+      "title": "The Division Resurgence ダウンロードガイド",
+      "description": "iOS、Android、Google Play、App StoreでThe Division Resurgenceをダウンロードする方法。APKガイド、対応言語、インストール手順。",
+      "metaTitle": "The Division Resurgence ダウンロード - iOS、Android、APKガイド",
+      "metaDescription": "App Store経由のiOS、またはGoogle Play経由のAndroidでThe Division Resurgenceをダウンロード。APKの選択肢、対応言語、インストール手順を確認。",
+      "categoryLabel": "ダウンロード",
+      "whatIs": "ダウンロード方法は？",
+      "whatIsDescription": "The Division ResurgenceはiOS（App Store）とAndroid（Google Play）で無料ダウンロード可能です。2026年3月31日より全世界で配信され、非対応地域向けにAPKの選択肢も用意されています。",
+      "why": "なぜダウンロードガイドを読むのか？",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "正しいストアを見つける",
+        "step1Description": "公式のiOS App StoreまたはAndroid Google Playのダウンロードリンクを取得",
+        "step2Title": "非対応地域向けのAPK",
+        "step2Description": "お住まいの地域でアクセスが制限されている場合に、APK経由でインストールする方法を学ぶ",
+        "step3Title": "対応言語を確認",
+        "step3Description": "ダウンロードや設定の前に、お使いの言語がサポートされているか確認"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのダウンロードガイド"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "codes": {
+      "title": "The Division Resurgence コード",
+      "description": "The Division Resurgenceの最新有効コード。すべての有効なプロモーションコードと、無料のゲーム内報酬を受け取るための引き換え手順。",
+      "metaTitle": "The Division Resurgence コード - 有効なプロモーションコードと引き換え手順",
+      "metaDescription": "有効なThe Division Resurgenceコードを見つけ、無料のゲーム内報酬と引き換える方法を学びましょう。既知のすべての有効なプロモーションコードを更新。",
+      "categoryLabel": "コード",
+      "whatIs": "コードとは？",
+      "whatIsDescription": "UbisoftがThe Division Resurgence向けに発行する、無料のゲーム内報酬を受け取れるプロモーションコード。通常、スペシャルイベント、マイルストーン、ゲームアップデート時に配布されます。",
+      "why": "なぜコードを使うのか？",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "無料報酬をゲット",
+        "step1Description": "課金することなく、コードを引き換えて無料のゲーム内アイテムやリソースを入手",
+        "step2Title": "優位に立つ",
+        "step2Description": "利用可能なすべてのコードを入手して、進行スピードを早める",
+        "step3Title": "イベントボーナス",
+        "step3Description": "ゲームアップデートやマイルストーン時にリリースされるスペシャルイベントコードをチェック"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのコード"
+    },
+    "classes": {
+      "title": "The Division Resurgence クラス＆Specialization",
+      "description": "The Division Resurgenceの全クラスとSpecializationの完全ガイド。初心者におすすめのクラス、Field Medic、Bulwark、Demolitionistなど。",
+      "metaTitle": "The Division Resurgence クラス - おすすめのSpecializationとスキルガイド",
+      "metaDescription": "The Division ResurgenceのすべてのクラスとSpecializationを解説。ソロ、協力プレイ、Dark Zoneに最適なクラスをスキルの詳細とともに紹介。",
+      "categoryLabel": "クラス",
+      "whatIs": "クラスとは？",
+      "whatIsDescription": "The Division Resurgenceには、Bulwark、Demolitionist、Vanguard、Field Medic、Tech Operatorの5つのSpecializationがあり、それぞれソロや協力プレイ向けのユニークなスキルと役割を持っています。",
+      "why": "なぜ適切なクラスを選ぶのか？",
+      "whySteps": {
+        "step1Title": "プレイスタイルに合わせる",
+        "step1Description": "タンク、ダメージ、サポート、テックなど、好みの役割に合ったSpecializationを選択",
+        "step2Title": "スキルを最適化",
+        "step2Description": "各Specializationのアビリティを理解し、最も効果的なロードアウトを構築",
+        "step3Title": "協力プレイでの連携",
+        "step3Description": "協力プレイやDark Zoneで分隊を補完するために適切なクラスを選択"
+      },
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのクラス"
     },
     "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
+      "title": "The Division Resurgence サポート＆コミュニティ",
+      "description": "エラーコード、サーバー状況、Redditコミュニティ、FAQ、ソーシャルリンクなど、The Division Resurgenceのヘルプとサポート。",
+      "metaTitle": "The Division Resurgence サポート - エラーコード、サーバー状況、FAQ",
+      "metaDescription": "エラーコードの修正、サーバー状況の更新、Redditコミュニティのリンク、よくある質問など、The Division Resurgenceのサポートを受ける。",
+      "categoryLabel": "サポート",
       "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
+      "whatIsDescription": "エラーコードの解説、リアルタイムのサーバー状況、公式コミュニティリンク、ゲームFAQなど、The Division Resurgenceの問題解決に役立つリソース。",
+      "why": "なぜサポートガイドをチェックするのか？",
       "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
+        "step1Title": "エラーを素早く修正",
+        "step1Description": "公式サポートを待たずに、一般的なエラーコードやログインの問題を解決",
+        "step2Title": "サーバー状況を確認",
+        "step2Description": "The Division Resurgenceのサーバーがダウンしているか、メンテナンス中かを即座に把握",
+        "step3Title": "コミュニティに参加",
+        "step3Description": "ヒント、アップデート、議論のための活発なRedditやFacebookコミュニティを見つける"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "おすすめ・必須ガイド",
+      "all": "すべてのサポートガイド"
+    },
+    "media": {
+      "title": "The Division Resurgence メディア＆アセット",
+      "description": "The Division Resurgenceの公式ロゴ、PNGアセット、トレーラー、メディア。エージェントやクリエイター向けの高品質な画像とビデオのリソース。",
+      "metaTitle": "The Division Resurgence メディア - 公式ロゴ、PNG、トレーラー",
+      "metaDescription": "ファンやコンテンツクリエイター向けのロゴ、PNGアセット、トレーラー、高品質なゲーム画像など、The Division Resurgenceの公式メディアを閲覧できます。",
+      "categoryLabel": "メディア",
+      "whatIs": "メディアとは？",
+      "whatIsDescription": "ファンやコンテンツクリエイター向けのゲームロゴ、PNG画像、プロモーション用アートワーク、公式トレーラーを含む、The Division Resurgenceの公式メディアアセットのコレクション。",
+      "why": "なぜメディアガイドを使用するのですか？",
+      "whySteps": {
+        "step1Title": "公式アセットへのアクセス",
+        "step1Description": "The Division Resurgenceの高品質な公式ロゴや画像を見つける",
+        "step2Title": "トレーラーを視聴する",
+        "step2Description": "公式ローンチトレーラーやゲームプレイ概要ビデオを視聴する",
+        "step3Title": "コンテンツを作成する",
+        "step3Description": "公式メディアアセットを使用して、ファンコンテンツ、ガイド、コミュニティリソースを作成する"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのメディア"
     }
   }
 }
