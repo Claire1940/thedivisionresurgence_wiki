@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "The Division Resurgence Wiki - Builds, Classes & Dark Zone",
+      "description": "The Division Resurgence Wiki covers builds, specializations, Dark Zone, missions, factions, gear, co-op guides, and mobile progression tips for new agents.",
+      "keywords": "The Division Resurgence, builds, Dark Zone, specializations, missions, gear, iOS, Android",
+      "ogTitle": "The Division Resurgence Wiki - Builds, Classes & Dark Zone",
+      "ogDescription": "The Division Resurgence Wiki covers builds, specializations, Dark Zone, missions, factions, gear, co-op guides, and mobile progression tips for new agents.",
+      "twitterTitle": "The Division Resurgence Wiki - Builds, Classes & Dark Zone",
+      "twitterDescription": "The Division Resurgence Wiki covers builds, specializations, Dark Zone, missions, factions, gear, and co-op guides for iOS & Android agents."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Mobile Tactical Looter-Shooter RPG",
+    "title": "The Division Resurgence Wiki",
+    "description": "Explore Ubisoft's mobile Division game with guides for specializations, Dark Zone, co-op, gear builds, missions, factions, and open-world progression in post-crisis New York.",
+    "getFreeCodesCTA": "View Guides",
+    "playOnSteamCTA": "Play on iOS & Android",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "March 31 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "100+",
+        "label": "World Activities"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "5",
+        "label": "Specializations"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play The Division Resurgence?",
+    "description": "Join the Division Resurgence community on Reddit for guides, updates, and agent discussions!",
+    "joinCommunity": "Join Reddit Community",
+    "joinGame": "Play on iOS & Android"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "The Division Resurgence Wiki",
+    "description": "Your complete resource hub for The Division Resurgence builds, specializations, Dark Zone, missions, factions, and mobile progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Reddit Community",
+    "twitter": "r/thedivision",
+    "steamCommunity": "Google Play",
+    "steamStore": "App Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 The Division Resurgence Wiki. Not affiliated with Ubisoft or The Division Resurgence.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
