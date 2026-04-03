@@ -26,10 +26,10 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   divisionResurgenceStoryAndMissions: { field: 'priorities', nameKey: 'name' },
   divisionResurgenceSoloAndCoopGuide: { field: 'groups', nameKey: 'name' },
   divisionResurgenceCrossplayAndCrossProgression: { field: 'faqs', nameKey: 'question' },
-  divisionResurgenceControllerSupport: { field: 'faqs', nameKey: 'question' },
-  divisionResurgenceBattlePassAndSeasons: { field: 'settings', nameKey: 'name' },
-  divisionResurgenceExoticWeapons: { field: 'entries', nameKey: 'title' },
-  divisionResurgenceFactions: { field: 'steps', nameKey: 'title' },
+  divisionResurgenceControllerSupport: { field: 'items', nameKey: 'control_method' },
+  divisionResurgenceBattlePassAndSeasons: { field: 'milestones', nameKey: 'label' },
+  divisionResurgenceExoticWeapons: { field: 'items', nameKey: 'name' },
+  divisionResurgenceFactions: { field: 'items', nameKey: 'name' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
@@ -53,7 +53,7 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   divisionResurgenceFactions: ['faction', 'freemen', 'rikers', 'cleaners', 'raiders', 'enemy'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['division', 'resurgence', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "The Division Resurgence")
+  const strippedQuery = normalizedQuery.replace(/(?:the\s+)?division\s+resurgence\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/(?:the\s+)?division\s+resurgence\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
