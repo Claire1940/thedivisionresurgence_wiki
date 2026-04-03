@@ -10,7 +10,16 @@
       "twitterDescription": "The Division Resurgence Wiki covers builds, specializations, Dark Zone, missions, factions, gear, and co-op guides for iOS & Android agents."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Game Guides",
+    "release": "Release",
+    "pc": "PC & Emulator",
+    "download": "Download",
+    "codes": "Codes",
+    "classes": "Classes",
+    "support": "Support",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -805,125 +814,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "The Division Resurgence Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced agent strategies. Master specializations, builds, and open-world tactics.",
-      "metaTitle": "The Division Resurgence Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete The Division Resurgence guides covering beginner tips, specializations, Dark Zone, builds, and advanced agent tactics for iOS and Android.",
+    "guide": {
+      "title": "The Division Resurgence Game Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced agent strategies. Master specializations, Dark Zone, crafting, and open-world tactics.",
+      "metaTitle": "The Division Resurgence Game Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete The Division Resurgence game guides covering beginner tips, Dark Zone, crafting, clans, and advanced agent tactics for iOS and Android.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering The Division Resurgence gameplay mechanics, specialization builds, Dark Zone strategies, and progression tips. Learn everything from first steps to endgame.",
-      "why": "Why read guides?",
+      "whatIs": "What are Game Guides?",
+      "whatIsDescription": "Comprehensive guides covering The Division Resurgence gameplay mechanics, specialization builds, Dark Zone strategies, crafting systems, and progression tips. Learn everything from first steps to endgame.",
+      "why": "Why read game guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
         "step1Description": "Understand specializations, skills, and gear to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to level up and unlock powerful builds faster",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for Dark Zone, PvP, and endgame content"
+        "step3Description": "Develop advanced tactics for Dark Zone, co-op, and endgame content"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Game Guides"
     },
-    "builds": {
-      "title": "The Division Resurgence Builds",
-      "description": "Best agent builds for PvE, PvP, and Dark Zone. Optimize your gear score, skills, and specialization loadouts.",
-      "metaTitle": "The Division Resurgence Builds - Best Agent Loadouts & Gear",
-      "metaDescription": "Best The Division Resurgence builds for every specialization. Optimize your gear, skills, and loadouts for PvE, PvP, and Dark Zone.",
-      "categoryLabel": "AGENT BUILDS",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Guides to optimizing your agent loadout in The Division Resurgence, covering gear selection, skill synergies, and specialization combinations for every playstyle.",
-      "why": "Why use builds?",
+    "release": {
+      "title": "The Division Resurgence Release Date & Launch Info",
+      "description": "Complete release timeline, global launch details, pre-registration bonuses, and launch history for The Division Resurgence.",
+      "metaTitle": "The Division Resurgence Release Date - Global Launch & Launch History",
+      "metaDescription": "The Division Resurgence released globally on March 31, 2026 for iOS and Android. Find out pre-registration bonuses, regional rollout, and launch timeline.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release Timeline?",
+      "whatIsDescription": "Full history of The Division Resurgence development and launch, from regional betas to the global March 31, 2026 release on iOS and Android.",
+      "why": "Why check release info?",
       "whySteps": {
-        "step1Title": "Maximize Damage Output",
-        "step1Description": "Pair the right weapons and gear to reach your specialization's potential",
-        "step2Title": "Survive Endgame",
-        "step2Description": "Build survivability for Dark Zone extractions and Heroic missions",
-        "step3Title": "Adapt to Content",
-        "step3Description": "Swap loadouts for solo campaign, co-op, or PvP situations"
+        "step1Title": "Confirm Launch Date",
+        "step1Description": "Verify the official global release date and regional rollout order",
+        "step2Title": "Claim Pre-Register Bonuses",
+        "step2Description": "Learn what rewards you earn for pre-registering before global launch",
+        "step3Title": "Track Launch History",
+        "step3Description": "Understand the beta timeline and how the game evolved before going live"
       },
       "featured": "Featured & Essential",
-      "all": "All Builds"
+      "all": "All Release Info"
     },
-    "weapons": {
-      "title": "The Division Resurgence Weapons",
-      "description": "Complete weapon database with stats, roles, and the best weapons for PvE and PvP in The Division Resurgence.",
-      "metaTitle": "The Division Resurgence Weapons - Best Guns & Stats Guide",
-      "metaDescription": "Complete The Division Resurgence weapon guide covering assault rifles, SMGs, marksman rifles, LMGs, and exotic weapon unlock paths.",
-      "categoryLabel": "WEAPONS",
-      "whatIs": "What are Weapons?",
-      "whatIsDescription": "Guides to every weapon category in The Division Resurgence, including assault rifles, SMGs, LMGs, marksman rifles, and exotic weapons with unlock paths.",
-      "why": "Why check weapon guides?",
+    "pc": {
+      "title": "The Division Resurgence PC & Emulator Guide",
+      "description": "How to play The Division Resurgence on PC using emulators like BlueStacks, MuMu, and Google Play Games. Setup guides and controller support.",
+      "metaTitle": "The Division Resurgence PC - BlueStacks, MuMu & Emulator Setup",
+      "metaDescription": "Play The Division Resurgence on PC with BlueStacks, MuMu Player, or Google Play Games. Step-by-step emulator setup, controller support, and performance tips.",
+      "categoryLabel": "PC & EMULATOR",
+      "whatIs": "What is PC Emulation?",
+      "whatIsDescription": "PC emulation lets you run The Division Resurgence on desktop using tools like BlueStacks, MuMu Player, or Google Play Games. Get larger screens, keyboard and controller support, and smoother performance.",
+      "why": "Why play on PC?",
       "whySteps": {
-        "step1Title": "Choose the Best Weapon",
-        "step1Description": "Find top-tier options for your specialization and playstyle",
-        "step2Title": "Unlock Exotic Weapons",
-        "step2Description": "Learn Battle Pass and progression paths to earn exotic rewards",
-        "step3Title": "Optimize Loadouts",
-        "step3Description": "Pair primary and secondary weapons for maximum effectiveness"
+        "step1Title": "Larger Screen Experience",
+        "step1Description": "Enjoy The Division Resurgence on a full monitor with improved visibility",
+        "step2Title": "Controller & Keyboard Support",
+        "step2Description": "Use a gamepad or keyboard for more precise aiming and movement",
+        "step3Title": "Better Performance",
+        "step3Description": "Reduce lag and frame drops compared to playing on mobile hardware"
       },
       "featured": "Featured & Essential",
-      "all": "All Weapons"
+      "all": "All PC Guides"
     },
-    "missions": {
-      "title": "The Division Resurgence Missions",
-      "description": "Mission guides for story campaign, side missions, and world activities in The Division Resurgence.",
-      "metaTitle": "The Division Resurgence Missions - Story & Activity Guides",
-      "metaDescription": "The Division Resurgence mission guides covering story campaign, side missions, open-world activities, and best strategies for solo and co-op.",
-      "categoryLabel": "MISSIONS",
-      "whatIs": "What are Missions?",
-      "whatIsDescription": "Guides to The Division Resurgence missions covering the main story campaign, side missions, strongholds, and open-world activities for efficient progression.",
-      "why": "Why use mission guides?",
+    "download": {
+      "title": "The Division Resurgence Download Guide",
+      "description": "How to download The Division Resurgence on iOS, Android, Google Play, and App Store. APK guide, language support, and installation steps.",
+      "metaTitle": "The Division Resurgence Download - iOS, Android & APK Guide",
+      "metaDescription": "Download The Division Resurgence on iOS via App Store or Android via Google Play. Find APK options, supported languages, and installation steps.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "How to Download?",
+      "whatIsDescription": "The Division Resurgence is free to download on iOS (App Store) and Android (Google Play). Available globally as of March 31, 2026, with APK options for unsupported regions.",
+      "why": "Why read download guides?",
       "whySteps": {
-        "step1Title": "Complete the Campaign",
-        "step1Description": "Follow the main story and unlock key progression milestones",
-        "step2Title": "Farm Efficiently",
-        "step2Description": "Identify the best missions for XP, loot, and Battle Pass progression",
-        "step3Title": "Master World Activities",
-        "step3Description": "Take on open-world events, Control Points, and Dark Zone extractions"
+        "step1Title": "Find the Right Store",
+        "step1Description": "Get the official iOS App Store or Android Google Play download link",
+        "step2Title": "APK for Unsupported Regions",
+        "step2Description": "Learn how to install via APK if your region has restricted access",
+        "step3Title": "Check Language Support",
+        "step3Description": "Confirm your language is supported before downloading and setting up"
       },
       "featured": "Featured & Essential",
-      "all": "All Missions"
+      "all": "All Download Guides"
     },
-    "factions": {
-      "title": "The Division Resurgence Factions",
-      "description": "Learn about every faction in The Division Resurgence — Freemen, Rikers, Cleaners, and Raiders — with combat profiles and story roles.",
-      "metaTitle": "The Division Resurgence Factions - Enemy Groups & Lore",
-      "metaDescription": "The Division Resurgence faction guide covering Freemen, Rikers, Cleaners, and Raiders. Learn enemy identities, combat tactics, and story roles.",
-      "categoryLabel": "FACTIONS",
-      "whatIs": "What are Factions?",
-      "whatIsDescription": "Guides to every hostile faction in The Division Resurgence, including the new Freemen and returning groups Rikers, Cleaners, and Raiders — with combat profiles and story roles.",
-      "why": "Why know factions?",
+    "codes": {
+      "title": "The Division Resurgence Codes",
+      "description": "Latest working codes for The Division Resurgence. Find all active promotional codes and redeem steps for free in-game rewards.",
+      "metaTitle": "The Division Resurgence Codes - Active Promo Codes & Redeem Steps",
+      "metaDescription": "Find active The Division Resurgence codes and learn how to redeem them for free in-game rewards. Updated with all known working promo codes.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Promotional codes released by Ubisoft for The Division Resurgence that grant free in-game rewards. Typically distributed during special events, milestones, and game updates.",
+      "why": "Why use codes?",
       "whySteps": {
-        "step1Title": "Understand Enemy Behavior",
-        "step1Description": "Learn each faction's tactics to prepare the right gear and approach",
-        "step2Title": "Follow the Lore",
-        "step2Description": "Connect faction origins to The Division Resurgence story and setting",
-        "step3Title": "Counter Enemy Threats",
-        "step3Description": "Identify faction-specific weaknesses and adapt your loadout"
+        "step1Title": "Get Free Rewards",
+        "step1Description": "Redeem codes for free in-game items and resources without spending real money",
+        "step2Title": "Stay Ahead",
+        "step2Description": "Claim all available codes to keep your progression moving faster",
+        "step3Title": "Event Bonuses",
+        "step3Description": "Watch for special event codes released during game updates and milestones"
       },
       "featured": "Featured & Essential",
-      "all": "All Factions"
+      "all": "All Codes"
     },
-    "darkzone": {
-      "title": "The Division Resurgence Dark Zone",
-      "description": "Dark Zone guides for loot farming, extraction strategies, and surviving rogue agents in The Division Resurgence.",
-      "metaTitle": "The Division Resurgence Dark Zone - Extraction Guide & Tips",
-      "metaDescription": "Master The Division Resurgence Dark Zone with extraction strategies, rogue agent tips, loot farming paths, and survival tactics for mobile agents.",
-      "categoryLabel": "DARK ZONE",
-      "whatIs": "What is the Dark Zone?",
-      "whatIsDescription": "The Dark Zone is The Division Resurgence's high-stakes extraction zone where contaminated loot, NPC enemies, and rogue agents create a high-risk, high-reward challenge.",
-      "why": "Why play Dark Zone?",
+    "classes": {
+      "title": "The Division Resurgence Classes & Specializations",
+      "description": "Complete guide to every class and specialization in The Division Resurgence. Best class for beginners, Field Medic, Bulwark, Demolitionist, and more.",
+      "metaTitle": "The Division Resurgence Classes - Best Specializations & Skills Guide",
+      "metaDescription": "All The Division Resurgence classes and specializations explained. Learn the best class for solo, co-op, and Dark Zone with skill breakdowns.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "What are Classes?",
+      "whatIsDescription": "The Division Resurgence features five specializations — Bulwark, Demolitionist, Vanguard, Field Medic, and Tech Operator — each with unique skills and roles for solo and co-op play.",
+      "why": "Why choose the right class?",
       "whySteps": {
-        "step1Title": "Farm Top-Tier Loot",
-        "step1Description": "Access contaminated gear that cannot be found in regular missions",
-        "step2Title": "Master Extractions",
-        "step2Description": "Learn to time and defend extractions against both NPCs and players",
-        "step3Title": "Survive Rogue Agents",
-        "step3Description": "Identify and counter rogue agent strategies before they steal your loot"
+        "step1Title": "Match Your Playstyle",
+        "step1Description": "Pick a specialization that fits your preferred role — tank, damage, support, or tech",
+        "step2Title": "Optimize Skills",
+        "step2Description": "Understand each specialization's abilities to build the most effective loadout",
+        "step3Title": "Coordinate in Co-op",
+        "step3Description": "Choose the right class to complement your squad in co-op and Dark Zone"
       },
       "featured": "Featured & Essential",
-      "all": "All Dark Zone Guides"
+      "all": "All Classes"
+    },
+    "support": {
+      "title": "The Division Resurgence Support & Community",
+      "description": "Help and support for The Division Resurgence including error codes, server status, Reddit community, FAQ, and social links.",
+      "metaTitle": "The Division Resurgence Support - Error Codes, Server Status & FAQ",
+      "metaDescription": "Get help for The Division Resurgence with error code fixes, server status updates, Reddit community links, and frequently asked questions.",
+      "categoryLabel": "SUPPORT",
+      "whatIs": "What is Support?",
+      "whatIsDescription": "Resources to help you resolve issues in The Division Resurgence, including error code explanations, live server status, official community links, and game FAQ.",
+      "why": "Why check support guides?",
+      "whySteps": {
+        "step1Title": "Fix Errors Fast",
+        "step1Description": "Resolve common error codes and login issues without waiting for official support",
+        "step2Title": "Check Server Status",
+        "step2Description": "Know instantly if The Division Resurgence servers are down or under maintenance",
+        "step3Title": "Join the Community",
+        "step3Description": "Find the active Reddit and Facebook communities for tips, updates, and discussions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Support Guides"
+    },
+    "media": {
+      "title": "The Division Resurgence Media & Assets",
+      "description": "Official logos, PNG assets, trailers, and media for The Division Resurgence. High-quality images and video resources for agents and creators.",
+      "metaTitle": "The Division Resurgence Media - Official Logos, PNG & Trailers",
+      "metaDescription": "Browse The Division Resurgence official media including logos, PNG assets, trailers, and high-quality game images for fans and content creators.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "A collection of official The Division Resurgence media assets including game logos, PNG images, promotional artwork, and official trailers for fans and content creators.",
+      "why": "Why use media guides?",
+      "whySteps": {
+        "step1Title": "Access Official Assets",
+        "step1Description": "Find high-quality official logos and images from The Division Resurgence",
+        "step2Title": "Watch Trailers",
+        "step2Description": "View the official launch trailer and gameplay overview videos",
+        "step3Title": "Create Content",
+        "step3Description": "Use official media assets to create fan content, guides, and community resources"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
     }
   }
 }

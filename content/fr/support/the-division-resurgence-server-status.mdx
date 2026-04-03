@@ -1,0 +1,112 @@
+export const metadata = {
+  title: "État des serveurs The Division Resurgence : Guide complet du lancement 2026",
+  description: "Restez informé de l'état des serveurs de The Division Resurgence, de la disponibilité régionale et des conseils de dépannage pour le lancement mobile de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Server+Status+Guide",
+  date: "2026-04-02",
+  author: "Division Resurgence Wiki Team"
+}
+
+Le lancement officiel du dernier jeu de tir mobile d'Ubisoft est arrivé, et les joueurs du monde entier surveillent de près **l'état des serveurs de The Division Resurgence** pour s'assurer de pouvoir plonger dans les rues de Manhattan sans délai. En tant que RPG en monde ouvert massif adapté spécifiquement aux appareils portables, l'infrastructure nécessaire pour supporter des milliers d'agents simultanés est complexe. Comprendre la logique de **l'état des serveurs de The Division Resurgence** est la première étape pour toute nouvelle recrue, d'autant plus que le jeu utilise un système de fragments (shards) régionaux qui dicte avec qui vous pouvez jouer et comment votre progression est sauvegardée.
+
+Dans ce guide complet pour 2026, nous allons détailler l'architecture des serveurs, expliquer les règles d'isolation régionale et fournir des étapes de dépannage pour les problèmes de connectivité courants. Que vous rencontriez un gameplay "saccadé" ou que vous ne trouviez pas vos amis dans le hub social, les sections suivantes vous aideront à optimiser votre connexion au réseau de la SHD.
+
+## Vérification de l'état des serveurs et de la disponibilité régionale
+
+Contrairement aux épisodes précédents de la franchise qui utilisaient un backend de matchmaking mondial plus unifié, ce titre mobile exige que les joueurs fassent un choix permanent au début de leur aventure. Lors de votre première connexion en 2026, vous êtes invité à sélectionner l'une des trois principales régions de serveurs. Il est vital de comprendre que ces serveurs sont complètement isolés les uns des autres.
+
+| Région du serveur | Couverture géographique | Prise en charge du Cross-Play | Isolation des données |
+| :--- | :--- | :--- | :--- |
+| **Serveur Américain** | Amérique du Nord et du Sud | iOS, Android, Émulateur PC | **Entièrement isolé** |
+| **Serveur Européen** | Europe, Afrique, Moyen-Orient | iOS, Android, Émulateur PC | **Entièrement isolé** |
+| **Serveur Asiatique** | Asie et Océanie | iOS, Android, Émulateur PC | **Entièrement isolé** |
+
+> **⚠️ Avertissement :** Les personnages créés sur le serveur américain ne peuvent pas se grouper avec ou voir les joueurs des serveurs européens ou asiatiques. Avant de commencer votre campagne, assurez-vous que l'ensemble de votre clan ou groupe d'amis sélectionne la même région pour éviter une séparation permanente.
+
+Bien que le jeu prenne en charge le cross-play fluide entre les systèmes d'exploitation mobiles, la barrière régionale est stricte. Si vous constatez que **l'état des serveurs de The Division Resurgence** apparaît comme "hors ligne" pour un ami mais "en ligne" pour vous, c'est probablement parce que vous vérifiez des clusters régionaux différents.
+
+## Optimisation des performances et de la latence
+
+De nombreux joueurs signalant des problèmes avec **l'état des serveurs de The Division Resurgence** rencontrent en réalité des goulots d'étranglement de performance locale plutôt que des pannes côté serveur. Le jeu est configuré par défaut sur une limite de 30 FPS (images par seconde) pour préserver la batterie, ce qui peut entraîner une sensation de "latence d'entrée" ressemblant à un ping élevé.
+
+Pour améliorer votre expérience, accédez au menu des paramètres et ajustez votre fréquence d'images. Selon votre matériel de 2026, vous pourriez avoir accès aux options suivantes :
+
+*   **30 FPS :** Paramètre par défaut ; idéal pour la longévité de la batterie.
+*   **45 FPS :** Un juste milieu équilibré pour les appareils de milieu de gamme.
+*   **60 FPS :** Recommandé pour le jeu compétitif et des combats fluides.
+
+Choisir 60 FPS offrira une expérience beaucoup plus stable, bien que cela puisse légèrement réduire la fidélité graphique sur les appareils plus anciens. Si vous jouez via un émulateur PC, assurez-vous que vos paramètres de virtualisation sont optimisés pour gérer les exigences de fréquence d'images plus élevées.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/TqeNr6KPB_4"
+    title="14 Tips I WISH I KNEW Before Starting The Division Resurgence..."
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Comprendre les limites de progression et les réinitialisations quotidiennes
+
+Parfois, ce qui semble être un bug dans **l'état des serveurs de The Division Resurgence** — comme ne pas recevoir d'XP ou de récompenses — est en fait une mécanique de jeu intégrée. Pour éviter l'épuisement des joueurs et maintenir une économie de jeu saine, Ubisoft a mis en place plusieurs limites quotidiennes qui se réinitialisent à une heure précise chaque jour.
+
+### Le système de boost d'XP quotidien
+Regardez le niveau de votre personnage dans l'interface utilisateur. Vous verrez une icône de flèche qui indique votre statut actuel de gain d'XP :
+
+1.  **Flèche orange :** Vous recevez des gains d'XP complets. Cela dure pour une certaine quantité de progression chaque jour.
+2.  **Flèche grise :** Votre "boost" quotidien est épuisé. Vous pouvez toujours jouer et gagner de l'XP, mais à un taux considérablement réduit.
+
+### Limites de récompenses d'activité
+Le monde ouvert regorge d'événements dynamiques, mais le serveur n'accorde des récompenses de haut niveau que pour un nombre limité de complétions par jour.
+
+| Type d'activité | Limite de récompense quotidienne | Recommandation |
+| :--- | :--- | :--- |
+| **Activités en monde ouvert** | 10 complétions | Concentrez-vous d'abord sur les événements de haut niveau. |
+| **Quêtes quotidiennes** | Série fixe | À compléter systématiquement pour les Crédits Phoenix. |
+| **Nids** | En rotation | Farmez les Nids Héroïques lorsqu'ils apparaissent pendant 24h. |
+| **Dark Zone** | Pas de limite stricte | Idéal pour farmer l'XP et l'équipement de haut niveau. |
+
+## Dépannage de la connectivité et des erreurs de connexion
+
+Si vous êtes certain que **l'état des serveurs de The Division Resurgence** est actif mais que vous ne parvenez toujours pas à vous connecter, suivez ces étapes de dépannage standard pour l'environnement mobile de 2026 :
+
+1.  **Vérifiez les mises à jour obligatoires :** Les titres mobiles nécessitent souvent de petits correctifs qui ne déclenchent pas toujours un téléchargement automatique. Vérifiez manuellement l'App Store ou le Google Play Store.
+2.  **Vérifiez les exigences de Score de Puissance :** Certains contenus de fin de jeu et étapes de la campagne sont verrouillés derrière un "Score de Puissance". Si une mission ne démarre pas, ce n'est pas une erreur de serveur ; vous devez probablement améliorer votre équipement ou vos modules pour atteindre le seuil minimum.
+3.  **Réinitialisation par voyage rapide :** Si une activité en monde ouvert ne se déclenche pas, essayez de voyager rapidement vers une planque proche puis de revenir. Cela rafraîchit votre instance sur le serveur.
+4.  **Avertissement de démantèlement :** Si vous ne pouvez pas améliorer votre équipement, assurez-vous d'avoir suffisamment de matériaux. N'oubliez pas que le démantèlement d'équipement ne rend que **90 %** des matériaux investis (et seulement **80 %** pour les protocoles OS).
+
+> **💡 Conseil :** Utilisez le menu "Carrière d'Agent" pour suivre votre progression. Si vous vous sentez bloqué ou "sans but" en raison d'un manque d'objectifs, ce menu propose un suivi unique de récompenses qui vous guide tout au long de votre montée en niveau.
+
+## Monétisation et boutique en jeu
+
+La stabilité de **l'état des serveurs de The Division Resurgence** est maintenue grâce à un modèle de service en direct. Bien que le jeu soit gratuit (free-to-play), plusieurs microtransactions peuvent atténuer les "frictions" dans la boucle de gameplay. Cependant, toutes les offres n'ont pas la même valeur.
+
+| Nom de l'achat | Coût (Approx.) | Avantages clés |
+| :--- | :--- | :--- |
+| **Pass d'Opérations Classifiées** | 10,00 $ | Débloque l'Exotique **Warlord** et des matériaux d'amélioration. |
+| **Ravitaillements Warden** | 5,00 $/mois | +30 emplacements d'inventaire, **temps de fabrication réduit de 40 %**. |
+| **Caches scellées** | Variable | RNG élevée ; généralement déconseillé aux joueurs F2P. |
+
+Notez que tous les achats sont **liés au personnage**. Si vous créez un nouveau personnage sur un serveur régional différent, vos achats précédents ne seront pas transférés.
+
+Pour plus d'informations officielles et de soutien communautaire, vous pouvez visiter le [Centre d'aide Ubisoft](https://www.ubisoft.com/en-us/help) pour des mises à jour techniques en temps réel.
+
+## FAQ
+
+**Q : Où puis-je vérifier l'état officiel des serveurs de The Division Resurgence ?**
+
+R : Vous pouvez consulter les réseaux sociaux officiels ou le fil d'actualité en jeu. Si le bouton "Jouer" est grisé après avoir sélectionné votre région (US, EU ou Asie), les serveurs sont probablement en cours de maintenance.
+
+**Q : Pourquoi ne puis-je pas trouver mes amis alors que nous sommes tous les deux en ligne ?**
+
+R : C'est presque toujours dû à l'isolation régionale des serveurs. Vérifiez votre écran de connexion pour vous assurer que vous avez tous deux sélectionné la même région (ex : Amérique du Nord). Il n'y a actuellement aucun moyen de transférer un personnage entre les régions.
+
+**Q : Le jeu a-t-il une limite de niveau quotidienne ?**
+
+R : Il n'y a pas de limite de niveau stricte, mais il existe un boost d'XP quotidien. Une fois que l'icône de votre flèche devient grise, votre gain d'XP est considérablement réduit jusqu'à la prochaine réinitialisation quotidienne.
+
+**Q : L'état du serveur est-il différent pour les joueurs sur émulateur PC ?**
+
+R : Non. Les joueurs sur émulateur se connectent aux mêmes serveurs mobiles. Cependant, assurez-vous que votre émulateur est réglé sur la bonne région pour correspondre à votre appareil mobile si vous prévoyez d'utiliser la progression croisée.

@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "guide": "Game Guides",
+    "release": "Release",
+    "pc": "PC & Emulator",
+    "download": "Download",
+    "codes": "Codes",
+    "classes": "Classes",
+    "support": "Support",
+    "media": "Media"
   },
   "common": {
     "home": "Início",

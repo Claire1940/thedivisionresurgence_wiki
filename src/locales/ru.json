@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Game Guides",
+    "release": "Release",
+    "pc": "PC & Emulator",
+    "download": "Download",
+    "codes": "Codes",
+    "classes": "Classes",
+    "support": "Support",
+    "media": "Media"
   },
   "common": {
     "home": "Главная",
