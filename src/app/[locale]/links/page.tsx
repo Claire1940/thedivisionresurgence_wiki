@@ -96,7 +96,7 @@ function SiteCard({ site }: { site: ReciprocalSite }) {
           </span>
         )}
       </div>
-      <p className="text-xs text-muted-foreground mb-2">
+      <p className="text-xs text-muted-foreground">
         <a
           href={href}
           target="_blank"
@@ -106,7 +106,6 @@ function SiteCard({ site }: { site: ReciprocalSite }) {
           {site.domain}
         </a>
       </p>
-      <p className="text-sm text-muted-foreground leading-relaxed">{site.notes}</p>
     </li>
   )
 }

@@ -93,10 +93,9 @@ export default function DirectoriesWebringsSection({ locale }: Props) {
                       </a>
                     </h4>
                   </div>
-                  <p className="text-xs text-muted-foreground mb-2">
+                  <p className="text-xs text-muted-foreground">
                     {site.domain}
                   </p>
-                  <p className="text-sm text-muted-foreground">{site.notes}</p>
                 </li>
               ))}
             </ul>
@@ -151,9 +150,6 @@ export default function DirectoriesWebringsSection({ locale }: Props) {
                     >
                       Widget slot reserved · awaits vendor-issued code
                     </div>
-                    <p className="text-xs text-muted-foreground mt-3 leading-relaxed">
-                      {site.notes}
-                    </p>
                   </li>
                 )
               })}
