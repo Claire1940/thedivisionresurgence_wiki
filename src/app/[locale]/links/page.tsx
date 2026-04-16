@@ -134,14 +134,9 @@ export default async function LinksPage({ params }: Props) {
       <section className="px-4 py-12">
         <div className="container mx-auto max-w-5xl">
           <header className="mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-2">
+            <h2 className="text-2xl md:text-3xl font-bold">
               Partner Directories & Game Portals
             </h2>
-            <p className="text-muted-foreground text-sm max-w-3xl">
-              Publicly listed gaming portals, general web directories, and
-              community-run resource hubs. Each entry is a real, crawlable link
-              that opens the partner site in a new tab.
-            </p>
           </header>
 
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -157,16 +152,9 @@ export default async function LinksPage({ params }: Props) {
         <section className="px-4 py-12 bg-white/[0.02] border-t border-border">
           <div className="container mx-auto max-w-5xl">
             <header className="mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold mb-2">
+              <h2 className="text-2xl md:text-3xl font-bold">
                 Reciprocal Directories (Exact-Code Slot)
               </h2>
-              <p className="text-muted-foreground text-sm max-w-3xl">
-                These partner directories ask submitters to place a vendor-
-                supplied HTML snippet on the reciprocal URL. Until we receive
-                the official snippet at submission time, each entry is listed
-                as a normal text link so the URL stays discoverable and
-                crawlable.
-              </p>
             </header>
 
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
