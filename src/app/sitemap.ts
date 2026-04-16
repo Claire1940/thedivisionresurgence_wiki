@@ -10,6 +10,7 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 	'privacy-policy': { priority: 0.3, changeFrequency: 'yearly' },
 	'terms-of-service': { priority: 0.3, changeFrequency: 'yearly' },
 	'copyright': { priority: 0.3, changeFrequency: 'yearly' },
+	'links': { priority: 0.5, changeFrequency: 'monthly' },
 }
 
 // 内容类型优先级配置
@@ -50,7 +51,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	}
 
 	// 2. 静态页面（所有语言版本）
-	const staticPages = ['about', 'privacy-policy', 'terms-of-service', 'copyright']
+	const staticPages = ['about', 'privacy-policy', 'terms-of-service', 'copyright', 'links']
 	for (const locale of routing.locales) {
 		for (const page of staticPages) {
 			const config = staticPagesConfig[page] || { priority: 0.5, changeFrequency: 'monthly' as const }

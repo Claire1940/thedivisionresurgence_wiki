@@ -43,6 +43,7 @@ import Link from 'next/link'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
+import DirectoriesWebringsSection from '@/components/home/DirectoriesWebringsSection'
 import { NativeBannerAd, AdBanner } from '@/components/ads'
 import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
@@ -949,6 +950,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         />
       </Suspense>
 
+      {/* Directories & Webrings - only homepage-required + widget partners */}
+      <DirectoriesWebringsSection locale={locale} />
+
       {/* Ad Banner 3 */}
       <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
@@ -1045,6 +1049,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/links"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    Resource Links
                   </Link>
                 </li>
               </ul>
