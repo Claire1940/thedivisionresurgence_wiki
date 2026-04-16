@@ -35,6 +35,22 @@ const indexRequiredSites = homepageSites.filter(
 
 const widgetSites = homepageSites.filter((s) => s.widget_required)
 
+type ReciprocalOverride = {
+  href: string
+  anchor: string
+  title?: string
+  suffix?: string
+}
+
+// Vendor-issued exact HTML for reciprocal validation. href / title / anchor
+// must remain byte-identical to what the directory requires.
+const RECIPROCAL_OVERRIDES: Record<string, ReciprocalOverride> = {
+  USAListingDirectory: {
+    href: 'https://www.usalistingdirectory.com/index.php?list=top',
+    anchor: 'Free Online Directory',
+  },
+}
+
 export default function DirectoriesWebringsSection({ locale }: Props) {
   const linksHref = locale === 'en' ? '/links' : `/${locale}/links`
 
@@ -75,29 +91,60 @@ export default function DirectoriesWebringsSection({ locale }: Props) {
               Directory Partners
             </h3>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {indexRequiredSites.map((site) => (
-                <li
-                  key={site.name}
-                  className="p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-start justify-between gap-3 mb-2">
-                    <h4 className="font-semibold">
-                      <a
-                        href={`https://${site.domain}`}
-                        target="_blank"
-                        rel="noopener"
-                        className="hover:text-[hsl(var(--nav-theme-light))] hover:underline underline-offset-4 inline-flex items-center gap-1.5"
-                      >
-                        {site.name}
-                        <ExternalLink className="w-3.5 h-3.5" />
-                      </a>
-                    </h4>
-                  </div>
-                  <p className="text-xs text-muted-foreground">
-                    {site.domain}
-                  </p>
-                </li>
-              ))}
+              {indexRequiredSites.map((site) => {
+                const override = RECIPROCAL_OVERRIDES[site.name]
+
+                if (override) {
+                  return (
+                    <li
+                      key={site.name}
+                      className="p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                    >
+                      <h4 className="font-semibold mb-1">{site.name}</h4>
+                      <p className="text-sm leading-relaxed">
+                        <a
+                          href={override.href}
+                          title={override.title}
+                          target="_blank"
+                          rel="noopener"
+                          className="text-[hsl(var(--nav-theme-light))] hover:underline underline-offset-4 break-words"
+                        >
+                          {override.anchor}
+                        </a>
+                        {override.suffix ? (
+                          <span className="text-muted-foreground">
+                            {override.suffix}
+                          </span>
+                        ) : null}
+                      </p>
+                    </li>
+                  )
+                }
+
+                return (
+                  <li
+                    key={site.name}
+                    className="p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-start justify-between gap-3 mb-2">
+                      <h4 className="font-semibold">
+                        <a
+                          href={`https://${site.domain}`}
+                          target="_blank"
+                          rel="noopener"
+                          className="hover:text-[hsl(var(--nav-theme-light))] hover:underline underline-offset-4 inline-flex items-center gap-1.5"
+                        >
+                          {site.name}
+                          <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
+                      </h4>
+                    </div>
+                    <p className="text-xs text-muted-foreground">
+                      {site.domain}
+                    </p>
+                  </li>
+                )
+              })}
             </ul>
           </div>
         )}

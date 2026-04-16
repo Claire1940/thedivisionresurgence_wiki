@@ -75,7 +75,61 @@ const linksPageSites = sites.filter(
 const exactHtmlSites = linksPageSites.filter((s) => s.exact_html_required)
 const plainTextSites = linksPageSites.filter((s) => !s.exact_html_required)
 
+type ReciprocalOverride = {
+  href: string
+  anchor: string
+  title?: string
+  suffix?: string
+}
+
+// Vendor-issued exact HTML for reciprocal validation. href / title / anchor
+// must remain byte-identical to what the directory requires.
+const RECIPROCAL_OVERRIDES: Record<string, ReciprocalOverride> = {
+  Saanvi: {
+    href: 'http://www.saanvi.org',
+    anchor: 'Saanvi Web Directory',
+    suffix: ' - Human edited web directory.',
+  },
+  '101bookmarks': {
+    href: 'http://www.101bookmarks.com/',
+    title: 'SEO Friendly and Human Edited Link Directory',
+    anchor: '101bookmarks.com - SEO Friendly and Human Edited Link Directory',
+  },
+  USAWebsitesDirectory: {
+    href: 'http://www.usawebsitesdirectory.com/computers_and_internet/',
+    anchor: 'http://www.usawebsitesdirectory.com/computers_and_internet/',
+  },
+  TXTLinks: {
+    href: 'http://www.txtlinks.com',
+    anchor: 'Free Links Directory',
+  },
+}
+
 function SiteCard({ site }: { site: ReciprocalSite }) {
+  const override = RECIPROCAL_OVERRIDES[site.name]
+
+  if (override) {
+    return (
+      <li className="p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+        <h3 className="font-semibold text-base mb-1">{site.name}</h3>
+        <p className="text-sm leading-relaxed">
+          <a
+            href={override.href}
+            title={override.title}
+            target="_blank"
+            rel="noopener"
+            className="text-[hsl(var(--nav-theme-light))] hover:underline underline-offset-4 break-words"
+          >
+            {override.anchor}
+          </a>
+          {override.suffix ? (
+            <span className="text-muted-foreground">{override.suffix}</span>
+          ) : null}
+        </p>
+      </li>
+    )
+  }
+
   const href = `https://${site.domain}`
   return (
     <li className="p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
@@ -90,11 +144,6 @@ function SiteCard({ site }: { site: ReciprocalSite }) {
             {site.name}
           </a>
         </h3>
-        {site.exact_html_required && (
-          <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] whitespace-nowrap">
-            exact code pending
-          </span>
-        )}
       </div>
       <p className="text-xs text-muted-foreground">
         <a
@@ -153,7 +202,7 @@ export default async function LinksPage({ params }: Props) {
           <div className="container mx-auto max-w-5xl">
             <header className="mb-8">
               <h2 className="text-2xl md:text-3xl font-bold">
-                Reciprocal Directories (Exact-Code Slot)
+                Reciprocal Directories
               </h2>
             </header>
 
@@ -177,12 +226,6 @@ export default async function LinksPage({ params }: Props) {
               reciprocal relationships with or consider relevant to our
               audience. All links here are plain <code>&lt;a href&gt;</code>{' '}
               anchors so they remain visible and crawlable.
-            </p>
-            <p>
-              Some partners (marked as <em>exact code pending</em>) require a
-              specific HTML snippet provided at submission time. Those entries
-              currently use a normal reciprocal text link and will be swapped
-              for the vendor-supplied snippet once issued.
             </p>
             <p className="text-sm text-muted-foreground">
               Want your directory or webring added? Email{' '}
