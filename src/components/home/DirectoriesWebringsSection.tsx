@@ -1,5 +1,4 @@
 import { Globe, ExternalLink } from 'lucide-react'
-import Link from 'next/link'
 import reciprocalSites from '@/data/reciprocal_sites.json'
 
 interface ReciprocalSite {
@@ -17,23 +16,23 @@ interface ReciprocalSite {
   notes: string
 }
 
-interface Props {
-  locale: string
-}
-
 const sites = reciprocalSites.sites as ReciprocalSite[]
 
-const homepageSites = sites.filter(
-  (s) => s.phase_status === 'implement_now' && s.route_target === 'homepage',
-)
-
-const indexRequiredSites = homepageSites.filter(
+// All directory partners (homepage hard-required + previously /links/) get
+// surfaced on the home page now. Widgets stay in their own group.
+const allDirectorySites = sites.filter(
   (s) =>
+    s.phase_status === 'implement_now' &&
     !s.widget_required &&
-    (s.homepage_required_by_vendor || s.homepage_required_by_local_policy),
+    (s.route_target === 'homepage' || s.route_target === '/links/'),
 )
 
-const widgetSites = homepageSites.filter((s) => s.widget_required)
+const widgetSites = sites.filter(
+  (s) =>
+    s.phase_status === 'implement_now' &&
+    s.route_target === 'homepage' &&
+    s.widget_required,
+)
 
 type ReciprocalOverride = {
   href: string
@@ -45,15 +44,76 @@ type ReciprocalOverride = {
 // Vendor-issued exact HTML for reciprocal validation. href / title / anchor
 // must remain byte-identical to what the directory requires.
 const RECIPROCAL_OVERRIDES: Record<string, ReciprocalOverride> = {
+  'Play-Free-Online-Games': {
+    href: 'http://play-free-online-games.com/',
+    anchor: 'Free Online Games',
+    suffix: ' - Hundreds of the best free online games!',
+  },
+  Viesearch: {
+    href: 'https://viesearch.com/',
+    anchor: 'Viesearch - The Human-curated Search Engine',
+  },
+  'World Web Directory': {
+    href: 'https://www.worldweb-directory.com/',
+    anchor: 'World Web Directory',
+  },
+  WebDirectoryBook: {
+    href: 'https://www.webdirectorybook.com/index.html',
+    anchor: 'Web Directory Book',
+  },
+  TXTLinks: {
+    href: 'http://www.txtlinks.com',
+    anchor: 'Free Links Directory',
+  },
+  GDirectory: {
+    href: 'https://www.gdirectory.info/',
+    anchor: 'Website Directory',
+  },
+  Saanvi: {
+    href: 'http://www.saanvi.org',
+    anchor: 'Saanvi Web Directory',
+    suffix: ' - Human edited web directory.',
+  },
+  '101bookmarks': {
+    href: 'http://www.101bookmarks.com/',
+    title: 'SEO Friendly and Human Edited Link Directory',
+    anchor: '101bookmarks.com - SEO Friendly and Human Edited Link Directory',
+  },
   USAListingDirectory: {
     href: 'https://www.usalistingdirectory.com/index.php?list=top',
     anchor: 'Free Online Directory',
   },
+  USAWebsitesDirectory: {
+    href: 'http://www.usawebsitesdirectory.com/computers_and_internet/',
+    anchor: 'http://www.usawebsitesdirectory.com/computers_and_internet/',
+  },
 }
 
-export default function DirectoriesWebringsSection({ locale }: Props) {
-  const linksHref = locale === 'en' ? '/links' : `/${locale}/links`
+// Display order: vendor-issued exact-HTML partners first (in the order the
+// site owner provided), then any remaining plain-text partners.
+const HOMEPAGE_DIRECTORY_ORDER: string[] = [
+  'Play-Free-Online-Games',
+  'Viesearch',
+  'World Web Directory',
+  'WebDirectoryBook',
+  'TXTLinks',
+  'GDirectory',
+  'Saanvi',
+  '101bookmarks',
+  'USAListingDirectory',
+  'USAWebsitesDirectory',
+]
 
+const orderedDirectorySites: ReciprocalSite[] = [
+  ...HOMEPAGE_DIRECTORY_ORDER.map((name) =>
+    allDirectorySites.find((s) => s.name === name),
+  ).filter((s): s is ReciprocalSite => Boolean(s)),
+  ...allDirectorySites.filter(
+    (s) => !HOMEPAGE_DIRECTORY_ORDER.includes(s.name),
+  ),
+]
+
+export default function DirectoriesWebringsSection() {
   return (
     <section
       id="directories-webrings"
@@ -68,30 +128,18 @@ export default function DirectoriesWebringsSection({ locale }: Props) {
             </span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Partners featured on this home page
+            Reciprocal Partners
           </h2>
-          <p className="text-muted-foreground text-base max-w-3xl mx-auto">
-            A small set of partner directories and webrings that specifically
-            require a home page link or a dedicated widget slot. For the full
-            list of resource partners, see our{' '}
-            <Link
-              href={linksHref}
-              className="text-[hsl(var(--nav-theme-light))] hover:underline"
-            >
-              resource links page
-            </Link>
-            .
-          </p>
         </div>
 
-        {/* Index-required text links */}
-        {indexRequiredSites.length > 0 && (
+        {/* Reciprocal directory partners */}
+        {orderedDirectorySites.length > 0 && (
           <div className="mb-10">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-4">
               Directory Partners
             </h3>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {indexRequiredSites.map((site) => {
+              {orderedDirectorySites.map((site) => {
                 const override = RECIPROCAL_OVERRIDES[site.name]
 
                 if (override) {
