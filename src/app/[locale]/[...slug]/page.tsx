@@ -21,23 +21,34 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+function decodeSlugSegments(slug: string[]) {
+  return slug.map(segment => {
+    try {
+      return decodeURIComponent(segment)
+    } catch {
+      return segment
+    }
+  })
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
+  const decodedSlug = decodeSlugSegments(slug)
 
   // 验证内容类型
-  const contentType = slug[0]
+  const contentType = decodedSlug[0]
   if (!isValidContentType(contentType)) {
     notFound()
   }
 
-  const isListPage = slug.length === 1
+  const isListPage = decodedSlug.length === 1
 
   if (isListPage) {
     // 渲染列表页
     return renderListPage(contentType, locale as Language)
   } else {
     // 渲染详情页
-    const slugPath = slug.slice(1)
+    const slugPath = decodedSlug.slice(1)
     return renderDetailPage(contentType, slugPath, locale as Language)
   }
 }
@@ -204,7 +215,8 @@ export async function generateStaticParams() {
  */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
-  const contentType = slug[0]
+  const decodedSlug = decodeSlugSegments(slug)
+  const contentType = decodedSlug[0]
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.thedivisionresurgence.wiki'
 
   if (!isValidContentType(contentType)) {
@@ -267,7 +279,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   } else {
     // 详情页元数据（从 MDX import 获取）
-    const slugPath = slug.slice(1)
+    const slugPath = decodedSlug.slice(1)
     const currentSlug = slugPath.join('/')
 
     try {
@@ -275,7 +287,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         `../../../../content/${locale}/${contentType}/${currentSlug}.mdx`
       )
 
-      const fullPath = `/${slug.join('/')}`
+      const fullPath = `/${decodedSlug.join('/')}`
 
       return {
         title: `${metadata.title} - The Division Resurgence Wiki`,
@@ -307,7 +319,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             `../../../../content/en/${contentType}/${currentSlug}.mdx`
           )
 
-          const fullPath = `/${slug.join('/')}`
+          const fullPath = `/${decodedSlug.join('/')}`
 
           return {
             title: `${metadata.title} - The Division Resurgence Wiki`,
